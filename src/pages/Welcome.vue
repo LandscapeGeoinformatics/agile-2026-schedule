@@ -16,9 +16,16 @@
           Conference schedule
         </router-link>
       </div>
+      <div class="app-footer">
+        <p>{{ version }}</p>
+      </div>
     </div>
   </div>
 </template>
+
+<script setup>
+const version = __APP_VERSION__
+</script>
 
 <style scoped>
 .welcome-container {
@@ -106,5 +113,16 @@
 .btn-workshop:hover {
   background: #003a75;
   border-color: #003a75;
+}
+
+.app-footer {
+  position: fixed;
+  bottom: 20px;
+  font-size: 12px;
+  color: #999;
+}
+
+.app-footer p {
+  margin: 0;
 }
 </style>

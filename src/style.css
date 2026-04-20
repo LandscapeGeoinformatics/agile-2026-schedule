@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.theme-track-666 {
+  --theme-bg:       #f0f0f0;
+  --theme-color:    #666;
+  --theme-border:   #666;
+}
+
+.theme-networking-ffc000 {
+  --theme-bg:       #FFF4D6;
+  --theme-color:    #FFC000;
+  --theme-border:   #FFC000;
+  --theme-background: #FFF4D6;
+  --theme-text:       #5a4a1a;
+  --theme-dots:       rgba(255, 192, 0, 0.2);
+  --theme-pill:       #FFF4D6;
+  --theme-pill-bg:    #FFC000;
+}
+
+.theme-presentation-5d95d5 {
+  --theme-bg:       #E8F0F8;
+  --theme-color:    #5D95D5;
+  --theme-border:   #5D95D5;
+}
+
+.theme-presentation-8b3a3a {
+  --theme-bg:       #F5E8E8;
+  --theme-color:    #8B3A3A;
+  --theme-border:   #8B3A3A;
+}
+
+.theme-presentation-65528f {
+  --theme-bg:       #F0E8F5;
+  --theme-color:    #65528F;
+  --theme-border:   #65528F;
+}
+
+.theme-presentation-3c7d22 {
+  --theme-bg:       #E8F5E8;
+  --theme-color:    #3C7D22;
+  --theme-border:   #3C7D22;
+}
+
+.theme-presentation-e67e22 {
+  --theme-bg:       #FEF0E8;
+  --theme-color:    #E67E22;
+  --theme-border:   #E67E22;
+}
+
+.theme-presentation-3d6fa3 {
+  --theme-bg:       #E8F0F8;
+  --theme-color:    #3D6FA3;
+  --theme-border:   #3D6FA3;
+}
+
+.theme-presentation-56616c {
+  --theme-bg:       #EFF0F2;
+  --theme-color:    #56616C;
+  --theme-border:   #56616C;
+}
+
+.theme-presentation-7b66a8 {
+  --theme-bg:       #F0E8F8;
+  --theme-color:    #7B66A8;
+  --theme-border:   #7B66A8;
+}
+
+.theme-presentation-4d82bc {
+  --theme-bg:       #E8F0F8;
+  --theme-color:    #4D82BC;
+  --theme-border:   #4D82BC;
+}
+
+.theme-presentation-85929e {
+  --theme-bg:       #F0F2F5;
+  --theme-color:    #85929E;
+  --theme-border:   #85929E;
+}
+
+.theme-presentation-753131 {
+  --theme-bg:       #F5E8E8;
+  --theme-color:    #753131;
+  --theme-border:   #753131;
+}
+
+.theme-presentation-275317 {
+  --theme-bg:       #E8F5E8;
+  --theme-color:    #275317;
+  --theme-border:   #275317;
+}
+
+.theme-presentation-2e5c8a {
+  --theme-bg:       #E8F0F8;
+  --theme-color:    #2E5C8A;
+  --theme-border:   #2E5C8A;
+}
+
+.theme-presentation-d28f7b {
+  --theme-bg:       #FEF5F2;
+  --theme-color:    #D28F7B;
+  --theme-border:   #D28F7B;
+}
+
+.theme-presentation-d28f7b {
+  --theme-bg:       #FEF5F2;
+  --theme-color:    #D28F7B;
+  --theme-border:   #D28F7B;
+}
+
+.theme-presentation-f57f17 {
+  --theme-bg:       #fff8e1;
+  --theme-color:    #f57f17;
+  --theme-border:   #f57f17;
+}
+
+.theme-assembly-1a3a4a {
+  --theme-border:   #c8c3bb;
+  --theme-background: #ffffff;
+  --theme-text:       #1f3342;
+  --theme-pill:       #ffffff;
+  --theme-pill-bg:    #1f3342;
+  --theme-side-stripe: rgba(31, 78, 121, 0.2);
+}
+
+.theme-posters-1a3a4a {
+  --theme-border:   #c8c3bb;
+  --theme-background: #ffffff;
+  --theme-text:       #1e1c19;
+  --theme-pill:       #da6e11;
+  --theme-pill-bg:    #fff8e1;
+  --theme-side-stripe: rgba(245, 127, 23, 0.16);
+}
+
+.theme-networking-ffc000 {
+  --theme-border:   #c8c3bb;
+  --theme-background: #ffffff;
+  --theme-text:       #1e1c19;
+  --theme-pill:       #da6e11;
+  --theme-pill-bg:    #fff8e1;
+  --theme-side-stripe: rgba(245, 127, 23, 0.16);
+}
+
+.theme-opening-ffc000 {
+  --theme-border:   #c8c3bb;
+  --theme-background: #ffffff;
+  --theme-text:       #1e1c19;
+  --theme-pill:       #da6e11;
+  --theme-pill-bg:    #fff8e1;
+  --theme-side-stripe: rgba(245, 127, 23, 0.16);
+}
+
+.theme-keynote-c00000 {
+  --theme-bg:       #FFE8E8;
+  --theme-color:    #C00000;
+  --theme-border:   #C00000;
+  --theme-background: #FFE8E8;
+  --theme-text:       #1e1c19;
+  --theme-dots:       rgba(192, 0, 0, 0.15);
+  --theme-pill:       #FFE8E8;
+  --theme-pill-bg:    #C00000;
+}
+
+.theme-workshop-f57f17 {
+  --theme-bg:       #fff8e1;
+  --theme-color:    #f57f17;
+  --theme-border:   #f57f17;
+}
+
+.theme-workshop-1565c0 {
+  --theme-bg:       #e3f2fd;
+  --theme-color:    #1565c0;
+  --theme-border:   #1565c0;
+}
+
+.theme-social-000000 {
+  --theme-border:   #424242;
+  --theme-background: #424242;
+  --theme-text:       #FFFFFF;
+  --theme-dots:       rgba(255, 255, 255, 0.15);
+  --theme-pill:       #424242;
+  --theme-pill-bg:    #FFFFFF;
+}
+
+.theme-social-ffffff {
+  --theme-border:   #a1a1a1;
+  --theme-background: #fafafa;
+  --theme-text:       #1e1c19;
+  --theme-dots:       rgba(29, 29, 29, 0.15);
+  --theme-pill:       #FFFFFF;
+  --theme-pill-bg:    #424242;
+}

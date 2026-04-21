@@ -24,7 +24,7 @@
             Get the app for offline access
           </button>
           <p v-if="showIosInstallHint" class="install-hint">
-            Get the app for offline access. On iPhone/iPad, tap Share, then Add to Home Screen.
+            Get the app for offline access. On iPhone/iPad, tap "Share", "More", then "Add to Home Screen".
           </p>
         </div>
         <p class="version-line">{{ version }}</p>

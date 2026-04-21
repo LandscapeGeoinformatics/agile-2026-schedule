@@ -1,0 +1,21 @@
+{
+  "name": "AGILE 2026 Schedule",
+  "short_name": "AGILE 2026 Schedule",
+  "start_url": "/agile-2026-schedule/",
+  "scope": "/agile-2026-schedule/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111827",
+  "icons": [
+    {
+      "src": "/agile-2026-schedule/icons/agile_short_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/agile-2026-schedule/icons/agile_short_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

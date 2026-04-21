@@ -9,6 +9,8 @@ const routes = [
   { path: '/workshops', component: Workshops }
 ]
 
+// On github pages, we need to use hash mode for the router to work correctly with the base path.
+//https://stackoverflow.com/questions/74483710/vue-router-with-hash-mode-doesnt-work-on-github-pages
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
   routes

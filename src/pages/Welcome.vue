@@ -23,6 +23,9 @@
           >
             Get the app for offline access
           </button>
+          <p v-if="showIosInstallHint" class="install-hint">
+            Get the app for offline access. On iPhone/iPad, tap Share, then Add to Home Screen.
+          </p>
         </div>
         <p class="version-line">{{ version }}</p>
       </div>
@@ -35,6 +38,7 @@ import { onBeforeUnmount, onMounted, ref } from 'vue'
 
 const version = __APP_VERSION__
 const canInstall = ref(false)
+const showIosInstallHint = ref(false)
 let deferredPrompt = null
 
 const handleBeforeInstallPrompt = (event) => {
@@ -59,6 +63,14 @@ const installApp = async () => {
 }
 
 onMounted(() => {
+  const ua = window.navigator.userAgent || ''
+  const isIos = /iPad|iPhone|iPod/.test(ua)
+  const isStandalone =
+    window.matchMedia('(display-mode: standalone)').matches ||
+    window.navigator.standalone === true
+
+  showIosInstallHint.value = isIos && !isStandalone
+
   window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt)
   window.addEventListener('appinstalled', handleAppInstalled)
 })
@@ -173,6 +185,17 @@ onBeforeUnmount(() => {
 
 .btn-install:hover {
   background: #f2f2f2;
+}
+
+.install-hint {
+  margin: 0;
+  padding: 10px 12px;
+  border: 1px solid #d9d4cf;
+  background: #f9f7f5;
+  color: #4f4944;
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: left;
 }
 
 .version-line {

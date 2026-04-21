@@ -8,23 +8,65 @@
         <h2>The 29th AGILE Conference</h2>
         <p>Tartu, Estonia, 16 - 19 June 2026</p>
       </div>
-      <div class="buttons">
-        <router-link to="/workshops" class="btn btn-workshop">
-          Workshops schedule
-        </router-link>
-        <router-link to="/main-conference" class="btn btn-conference">
-          Conference schedule
-        </router-link>
-      </div>
-      <div class="app-footer">
-        <p>{{ version }}</p>
+      <div class="actions">
+        <div class="buttons">
+          <router-link to="/workshops" class="btn btn-workshop">
+            Workshops schedule
+          </router-link>
+          <router-link to="/main-conference" class="btn btn-conference">
+            Conference schedule
+          </router-link>
+          <button
+            v-if="canInstall"
+            class="btn btn-install"
+            @click="installApp"
+          >
+            Get the app for offline access
+          </button>
+        </div>
+        <p class="version-line">{{ version }}</p>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
+import { onBeforeUnmount, onMounted, ref } from 'vue'
+
 const version = __APP_VERSION__
+const canInstall = ref(false)
+let deferredPrompt = null
+
+const handleBeforeInstallPrompt = (event) => {
+  event.preventDefault()
+  deferredPrompt = event
+  canInstall.value = true
+}
+
+const handleAppInstalled = () => {
+  deferredPrompt = null
+  canInstall.value = false
+}
+
+const installApp = async () => {
+  if (!deferredPrompt) return
+
+  deferredPrompt.prompt()
+  await deferredPrompt.userChoice
+
+  deferredPrompt = null
+  canInstall.value = false
+}
+
+onMounted(() => {
+  window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt)
+  window.addEventListener('appinstalled', handleAppInstalled)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt)
+  window.removeEventListener('appinstalled', handleAppInstalled)
+})
 </script>
 
 <style scoped>
@@ -83,6 +125,14 @@ const version = __APP_VERSION__
   max-width: 500px;
 }
 
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
 .btn {
   padding: 12px 32px;
   font-size: 16px;
@@ -115,14 +165,19 @@ const version = __APP_VERSION__
   border-color: #003a75;
 }
 
-.app-footer {
-  position: fixed;
-  bottom: 20px;
-  font-size: 12px;
-  color: #999;
+.btn-install {
+  background: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
 }
 
-.app-footer p {
+.btn-install:hover {
+  background: #f2f2f2;
+}
+
+.version-line {
+  font-size: 12px;
+  color: #999;
   margin: 0;
 }
 </style>

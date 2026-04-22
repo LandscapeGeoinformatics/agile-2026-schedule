@@ -1183,7 +1183,7 @@ export const eventsConfig = {
     {
       "event_group": "presentation",
       "event_format": "presentation",
-      "session_category": "Posters, Networking, Welcome, Closing",
+      "session_category": "Best Paper Competition",
       "track": "",
       "theme": "presentation-f57f17",
       "title": "Counterfactual Modelling for Evaluating Pipeline Replacement Strategies",

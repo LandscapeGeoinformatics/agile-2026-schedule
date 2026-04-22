@@ -8,6 +8,22 @@ const app = createApp(App)
 app.use(router)
 app.mount("#app")
 
+const UPDATE_STATUS_EVENT = "app-update-status";
+const updateStatus = {
+  updateAvailable: false,
+  enabled: "serviceWorker" in navigator && import.meta.env.PROD
+};
+
+const emitUpdateStatus = (partial = {}) => {
+  Object.assign(updateStatus, partial);
+  window.__APP_UPDATE_STATUS = { ...updateStatus };
+  window.dispatchEvent(
+    new CustomEvent(UPDATE_STATUS_EVENT, { detail: window.__APP_UPDATE_STATUS })
+  );
+};
+
+emitUpdateStatus();
+
 if ("serviceWorker" in navigator && import.meta.env.PROD) {
   window.addEventListener("load", async () => {
     const SW_DEBUG = false;
@@ -15,28 +31,35 @@ if ("serviceWorker" in navigator && import.meta.env.PROD) {
 
     const { Workbox } = await import("workbox-window");
     const wb = new Workbox(`${import.meta.env.BASE_URL}sw.js`);
-    let hasShownUpdatePrompt = false;
 
     wb.addEventListener("installing", () => swLog("installing"));
-    wb.addEventListener("installed", (e) => swLog("installed, isUpdate:", e.isUpdate));
-    wb.addEventListener("waiting", (e) => swLog("waiting, isUpdate:", e.isUpdate));
-    wb.addEventListener("controlling", (e) => swLog("controlling, isUpdate:", e.isUpdate));
+    wb.addEventListener("installed", (event) => {
+      swLog("installed, isUpdate:", event.isUpdate);
+      if (event.isUpdate) {
+        emitUpdateStatus({ updateAvailable: true });
+      }
+    });
+    wb.addEventListener("waiting", (event) => {
+      swLog("waiting, isUpdate:", event.isUpdate);
+      if (event.isUpdate) {
+        emitUpdateStatus({ updateAvailable: true });
+      }
+    });
+    wb.addEventListener("controlling", (event) => swLog("controlling, isUpdate:", event.isUpdate));
     wb.addEventListener("activated", (event) => {
       swLog("activated, isUpdate:", event.isUpdate);
-      if (event.isUpdate && !hasShownUpdatePrompt) {
-        hasShownUpdatePrompt = true;
-        const shouldReload = window.confirm(
-          "A new version of the app is available. Reload now?"
-        );
-        if (shouldReload) {
-          window.location.reload();
-        }
+      if (event.isUpdate) {
+        emitUpdateStatus({ updateAvailable: true });
       }
     });
 
     const registration = await wb.register();
     if (!registration) return;
     swLog("registered:", registration);
+
+    if (registration.waiting) {
+      emitUpdateStatus({ updateAvailable: true });
+    }
 
     const checkForUpdates = () => {
       swLog("checking for updates...");

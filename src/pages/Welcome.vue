@@ -27,19 +27,33 @@
             Get the app for offline access. On iPhone/iPad, tap "Share", "More", then "Add to Home Screen".
           </p>
         </div>
-        <p class="version-line">{{ version }}</p>
+        <button
+          type="button"
+          class="version-pill"
+          :class="{ 'version-pill--active': updateAvailable }"
+          :disabled="!updateAvailable"
+          @click="applyUpdate"
+        >
+          <span>Version {{ version }}:</span>
+          <span>{{ updateStatusLabel }}</span>
+        </button>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 
 const version = __APP_VERSION__
 const canInstall = ref(false)
 const showIosInstallHint = ref(false)
+const updateAvailable = ref(false)
 let deferredPrompt = null
+
+const updateStatusLabel = computed(() =>
+  updateAvailable.value ? 'Update available' : 'No updates available'
+)
 
 const handleBeforeInstallPrompt = (event) => {
   event.preventDefault()
@@ -52,6 +66,10 @@ const handleAppInstalled = () => {
   canInstall.value = false
 }
 
+const handleUpdateStatus = (event) => {
+  updateAvailable.value = Boolean(event?.detail?.updateAvailable)
+}
+
 const installApp = async () => {
   if (!deferredPrompt) return
 
@@ -62,6 +80,11 @@ const installApp = async () => {
   canInstall.value = false
 }
 
+const applyUpdate = () => {
+  if (!updateAvailable.value) return
+  window.location.reload()
+}
+
 onMounted(() => {
   const ua = window.navigator.userAgent || ''
   const isIos = /iPad|iPhone|iPod/.test(ua)
@@ -70,14 +93,17 @@ onMounted(() => {
     window.navigator.standalone === true
 
   showIosInstallHint.value = isIos && !isStandalone
+  updateAvailable.value = Boolean(window.__APP_UPDATE_STATUS?.updateAvailable)
 
   window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt)
   window.addEventListener('appinstalled', handleAppInstalled)
+  window.addEventListener('app-update-status', handleUpdateStatus)
 })
 
 onBeforeUnmount(() => {
   window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt)
   window.removeEventListener('appinstalled', handleAppInstalled)
+  window.removeEventListener('app-update-status', handleUpdateStatus)
 })
 </script>
 
@@ -198,9 +224,33 @@ onBeforeUnmount(() => {
   text-align: left;
 }
 
-.version-line {
+.version-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid #d8d3ce;
+  background: #f1efec;
+  color: #6f6862;
   font-size: 12px;
-  color: #999;
-  margin: 0;
+  line-height: 1;
+  cursor: default;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.version-pill:disabled {
+  opacity: 1;
+}
+
+.version-pill--active {
+  border-color: #228c49;
+  background: #e7f7ee;
+  color: #166534;
+  cursor: pointer;
+}
+
+.version-pill--active:hover {
+  background: #d5f1e2;
 }
 </style>

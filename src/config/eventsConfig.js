@@ -1260,7 +1260,7 @@ export const eventsConfig = {
       "event_format": "assembly",
       "track": "",
       "theme": "assembly-1a3a4a",
-      "title": "Agile Annual Assembly",
+      "title": "AGILE Annual Assembly",
       "location": "Room TBA",
       "time_start": "2026-06-18T13:20",
       "time_end": "2026-06-18T14:20"

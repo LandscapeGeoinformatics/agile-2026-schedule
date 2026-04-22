@@ -572,7 +572,7 @@ export const eventsConfig = {
     {
       "event_group": "presentation",
       "event_format": "presentation",
-      "session_category": "Posters, Networking, Welcome, Closing",
+      "session_category": "Best Paper Competition",
       "track": "",
       "theme": "presentation-f57f17",
       "title": "Identifying the Semantic Neighbourhoods within London's Airbnb Properties",
@@ -1109,7 +1109,7 @@ export const eventsConfig = {
     {
       "event_group": "presentation",
       "event_format": "presentation",
-      "session_category": "Posters, Networking, Welcome, Closing",
+      "session_category": "Best Paper Competition",
       "track": "",
       "theme": "presentation-f57f17",
       "title": "Towards Fine-grained Relevance Scoring of Social Media Posts in Disaster Response: A Decay-based Regression Approach",
@@ -1127,7 +1127,7 @@ export const eventsConfig = {
     {
       "event_group": "presentation",
       "event_format": "presentation",
-      "session_category": "Posters, Networking, Welcome, Closing",
+      "session_category": "Best Paper Competition",
       "track": "",
       "theme": "presentation-f57f17",
       "title": "OpenStreetMap Suitability Analysis for Wheelchair Routing",
@@ -1165,7 +1165,7 @@ export const eventsConfig = {
     {
       "event_group": "presentation",
       "event_format": "presentation",
-      "session_category": "Posters, Networking, Welcome, Closing",
+      "session_category": "Best Paper Competition",
       "track": "",
       "theme": "presentation-f57f17",
       "title": "A Method for Spatializing Disturbance by Detecting Human-Wildlife Encounters from GNSS Trajectories",
@@ -1200,7 +1200,7 @@ export const eventsConfig = {
     {
       "event_group": "presentation",
       "event_format": "presentation",
-      "session_category": "Posters, Networking, Welcome, Closing",
+      "session_category": "Best Paper Competition",
       "track": "",
       "theme": "presentation-f57f17",
       "title": "A High-Performance Game Engine-GIS-CFD System for Interactive Urban Wind Decision Support",

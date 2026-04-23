@@ -1300,7 +1300,11 @@ export const eventsConfig = {
       "title": "MobilityBank: Building a Global Collective for Open, FAIR, and Ethical Human Mobility Data",
       "short_title": "MobilityBank",
       "author": [
-        "Milad Malekzadeh"
+        "Milad Malekzadeh",
+        "Ur\u0161ka Dem\u0161ar",
+        "Henrikki Tikkanen",
+        "Katarzyna Sila-Nowicka",
+        "Jed Long"
       ],
       "location": "Room TBA",
       "time_start": "2026-06-16T09:00",

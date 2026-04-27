@@ -1035,7 +1035,7 @@ export const eventsConfig = {
       "session_category": "Ecology & Sustainable Systems Modelling",
       "track": "track1",
       "theme": "presentation-3c7d22",
-      "title": "3D Visualization and Behavioral Analytics for Rhinoceros Monitoring: a Prototype System",
+      "title": "Behavior Analysis of Rhinoceroses and their Monitoring using a 3D Geovisualization Prototype",
       "author": [
         "Martine Besse",
         "Basile Thullen",

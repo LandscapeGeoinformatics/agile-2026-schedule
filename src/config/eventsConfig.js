@@ -66,8 +66,8 @@ export const eventsConfig = {
       "title": "The potential of street-level and 3D views: Making public participation in urban planning more accessible to people with learning disabilities",
       "author": [
         "Judith Kirstein",
-        "Carsten Ke\u00dfler",
-        "Heike K\u00f6ckler",
+        "Carsten Keßler",
+        "Heike Köckler",
         "Christin Kupitz",
         "Christian Walter-Klose",
         "Stefan Fleck"
@@ -113,7 +113,7 @@ export const eventsConfig = {
       "session_category": "Transport Accessibility & Active Mobility",
       "track": "track3",
       "theme": "presentation-7b66a8",
-      "title": "Linking Public Transport Provision to Functional Regions: Evaluating Transport\u2013Commuting Alignment in Estonia",
+      "title": "Linking Public Transport Provision to Functional Regions: Evaluating Transport–Commuting Alignment in Estonia",
       "author": [
         "Martin Haamer",
         "Anto Aasa"
@@ -147,7 +147,7 @@ export const eventsConfig = {
       "theme": "presentation-7b66a8",
       "title": "Fuzzy Meta Indices: A Bikeability Case Study in Augsburg",
       "author": [
-        "Pablo S. L\u00f6w",
+        "Pablo S. Löw",
         "Jukka M. Krisp"
       ],
       "location": "Room TBA",
@@ -195,11 +195,11 @@ export const eventsConfig = {
       "title": "Assessing Perceived Walkability: a case study using eye-tracking and think-aloud with street images",
       "author": [
         "Chenyu Zuo",
-        "Fabian St\u00f6ckl",
+        "Fabian Stöckl",
         "Elisa Stegmeier",
         "Jiale Xu",
         "Jonas Olbrich",
-        "Leo Glavini\u0107",
+        "Leo Glavinić",
         "Teresa Haselmayr",
         "Eva Nuhn"
       ],
@@ -246,7 +246,7 @@ export const eventsConfig = {
       "session_category": "Spatial Machine Learning & Predictive Analytics",
       "track": "track1",
       "theme": "presentation-4d82bc",
-      "title": "\u201cFlags of Deceit:\u201d Re-Flagging Trends among Sanctioned Ships in the Russian Shadow Fleet",
+      "title": "“Flags of Deceit:” Re-Flagging Trends among Sanctioned Ships in the Russian Shadow Fleet",
       "author": [
         "Mikael Brunila"
       ],
@@ -260,7 +260,7 @@ export const eventsConfig = {
       "session_category": "Spatial Machine Learning & Predictive Analytics",
       "track": "track1",
       "theme": "presentation-4d82bc",
-      "title": "The value of where \u2013 quantifying location values with tabular transformer models",
+      "title": "The value of where – quantifying location values with tabular transformer models",
       "author": [
         "Christian Mueller-Kett"
       ],
@@ -274,7 +274,7 @@ export const eventsConfig = {
       "session_category": "Spatial Machine Learning & Predictive Analytics",
       "track": "track1",
       "theme": "presentation-4d82bc",
-      "title": "When Today\u2019s Accuracy Fails Tomorrow: Evaluating Spatially Driven Real Estate Prediction Models",
+      "title": "When Today’s Accuracy Fails Tomorrow: Evaluating Spatially Driven Real Estate Prediction Models",
       "author": [
         "Christopher Kmen",
         "Gerhard Navratil",
@@ -314,7 +314,7 @@ export const eventsConfig = {
       "session_category": "Spatial Data Infrastructure & Scalable Analytics",
       "track": "track2",
       "theme": "presentation-2e5c8a",
-      "title": "From Missingness to Motivation: A \u201cLiving Dataset\u201d Perspective  on Volunteering Geographic Information",
+      "title": "From Missingness to Motivation: A “Living Dataset” Perspective  on Volunteering Geographic Information",
       "author": [
         "James Ackland",
         "Ana Basiri"
@@ -347,7 +347,7 @@ export const eventsConfig = {
       "session_category": "Spatial Data Infrastructure & Scalable Analytics",
       "track": "track2",
       "theme": "presentation-2e5c8a",
-      "title": "A Fractional Raster\u2013Vector Clipping Operator for Boundary-Consistent Multi-Scale Spatial Analysis",
+      "title": "A Fractional Raster–Vector Clipping Operator for Boundary-Consistent Multi-Scale Spatial Analysis",
       "author": [
         "Younes Hamdani",
         "Urs Albert Treier",
@@ -397,7 +397,7 @@ export const eventsConfig = {
       "title": "Advancing National Fire Danger Forecasting through Geoinformatics",
       "author": [
         "Valentina Sagris",
-        "T\u00f5nu Oja"
+        "Tõnu Oja"
       ],
       "location": "Room TBA",
       "time_start": "2026-06-18T17:10",
@@ -413,7 +413,7 @@ export const eventsConfig = {
       "author": [
         "Essmat Mohamed",
         "Amanda Batlle Morera",
-        "Llu\u00eds Pesquer",
+        "Lluís Pesquer",
         "Miquel Ninyerola"
       ],
       "location": "Room TBA",
@@ -479,7 +479,7 @@ export const eventsConfig = {
       "theme": "presentation-753131",
       "title": "Trends and distribution of drug-related and associated events: A Case Study of Vilnius",
       "author": [
-        "Gordonas Jank\u016bnas"
+        "Gordonas Jankūnas"
       ],
       "location": "Room TBA",
       "time_start": "2026-06-17T11:20",
@@ -529,7 +529,7 @@ export const eventsConfig = {
       "title": "Detour-based metrics of alcohol availability along walking commutes",
       "author": [
         "Nir Fulman",
-        "Abdulkadir Memduho\u011flu",
+        "Abdulkadir Memduhoğlu",
         "Johannes Huber",
         "Alexander Zipf"
       ],
@@ -578,7 +578,7 @@ export const eventsConfig = {
       "title": "Identifying the Semantic Neighbourhoods within London's Airbnb Properties",
       "author": [
         "Joseph Shingleton",
-        "Yunus Serhat B\u0131\u00e7ak\u00e7\u0131",
+        "Yunus Serhat Bıçakçı",
         "Ana Basiri",
         "Meiliu Wu"
       ],
@@ -596,7 +596,7 @@ export const eventsConfig = {
       "author": [
         "Franz Welscher",
         "Paddy Smith",
-        "Tatu Lepp\u00e4m\u00e4ki",
+        "Tatu Leppämäki",
         "Ilya Ilyankou"
       ],
       "location": "Room TBA",
@@ -631,7 +631,7 @@ export const eventsConfig = {
       "author": [
         "Vincent Holtorf",
         "Maria Moleiro Dale",
-        "J\u00f6rg Rainer Noennig"
+        "Jörg Rainer Noennig"
       ],
       "location": "Room TBA",
       "time_start": "2026-06-18T16:10",
@@ -646,7 +646,7 @@ export const eventsConfig = {
       "title": "Object-Level Detection of Hand-Drawn Annotations in Participatory Sketch Maps Using Paired Clean and Annotated Basemaps",
       "author": [
         "Clemens Langer",
-        "Celina Thom\u00e9",
+        "Celina Thomé",
         "Nir Fulman",
         "Steffen Knoblauch",
         "Alexander Zipf",
@@ -662,7 +662,7 @@ export const eventsConfig = {
       "track": "",
       "session_category": "Keynote",
       "theme": "keynote-c00000",
-      "title": "Making mobile big data actionable for spatial planning and management  \u2013 examples from Finland and beyond",
+      "title": "Making mobile big data actionable for spatial planning and management  – examples from Finland and beyond",
       "author": [
         "Prof. Tuuli Toivonen"
       ],
@@ -688,7 +688,7 @@ export const eventsConfig = {
       "author": [
         "Lydia Valdesera",
         "Thibaud Chassin",
-        "Ji\u0159\u00ed P\u00e1nek"
+        "Jiří Pánek"
       ],
       "location": "Room TBA",
       "time_start": "2026-06-18T16:50",
@@ -726,8 +726,8 @@ export const eventsConfig = {
       "theme": "presentation-65528f",
       "title": "Local Calibration of OpenStreetMap GPS Traces for Traffic Volume Estimation",
       "author": [
-        "Michael Sch\u00f6tz",
-        "Martina Sch\u00f6ll"
+        "Michael Schötz",
+        "Martina Schöll"
       ],
       "location": "Room TBA",
       "time_start": "2026-06-17T11:40",
@@ -759,7 +759,7 @@ export const eventsConfig = {
       "theme": "presentation-65528f",
       "title": "Beyond the Immediate Impacts of COVID-19 on Internal Population Movements in Mexico: Facebook Data Reveal Urban Decay and Slow Recovery",
       "author": [
-        "Miguel Gonz\u00e1lez-Leonardo",
+        "Miguel González-Leonardo",
         "Carmen Cabrera",
         "Ruth Neville",
         "Andrea Nasuto",
@@ -797,10 +797,10 @@ export const eventsConfig = {
       "author": [
         "Egor Kotov",
         "Eugeni Vidal-Tortosa",
-        "Oliva Cant\u00fa-Ros",
-        "Javier Burrieza-Gal\u00e1n",
+        "Oliva Cantú-Ros",
+        "Javier Burrieza-Galán",
         "Ricardo Herranz",
-        "Tania Gull\u00f3n Mu\u00f1oz-Repiso",
+        "Tania Gullón Muñoz-Repiso",
         "Robin Lovelace"
       ],
       "location": "Room TBA",
@@ -833,8 +833,8 @@ export const eventsConfig = {
       "title": "LidarTeam: a remote sensing driven method for massive lidar data to regional DHM refined through user feedback",
       "author": [
         "Xavier Pons",
-        "Oscar Gonz\u00e1lez-Guerrero",
-        "Joan Mas\u00f3",
+        "Oscar González-Guerrero",
+        "Joan Masó",
         "Alaitz Zabala",
         "Ivette Serral",
         "Miquel Ninyerola"
@@ -870,8 +870,8 @@ export const eventsConfig = {
       "theme": "presentation-5d95d5",
       "title": "A comparison of urban block 3D model variants considering attributes with an influence on urban analyses",
       "author": [
-        "Alejandro Dom\u00ednguez-Lape\u00f1a",
-        "Rub\u00e9n B\u00e9jar",
+        "Alejandro Domínguez-Lapeña",
+        "Rubén Béjar",
         "Ana Ruiz-Varona"
       ],
       "location": "Room TBA",
@@ -1040,9 +1040,9 @@ export const eventsConfig = {
         "Martine Besse",
         "Basile Thullen",
         "Maryam Lotfian",
-        "Vanessa Duth\u00e9",
+        "Vanessa Duthé",
         "Siphesihle Mbongwa",
-        "J\u00fcrgen Ehrensberger",
+        "Jürgen Ehrensberger",
         "Jens Ingensand"
       ],
       "location": "Room TBA",
@@ -1076,9 +1076,9 @@ export const eventsConfig = {
       "title": "From Individual Choices to Collective Impact: Quantifying the Role of Behavioural Changes in Greenhouse Gas Mitigation",
       "author": [
         "Maryam Naghdizadeganjahromi",
-        "S\u00e9bastien Bruno",
-        "Marius Le Mar\u00e9chal",
-        "St\u00e9phane Roche"
+        "Sébastien Bruno",
+        "Marius Le Maréchal",
+        "Stéphane Roche"
       ],
       "location": "Room TBA",
       "time_start": "2026-06-17T14:40",
@@ -1282,7 +1282,7 @@ export const eventsConfig = {
       "event_format": "social",
       "track": "",
       "theme": "social-ffffff",
-      "title": "Conference dinner & Boat trips on Emaj\u00f5gi",
+      "title": "Conference dinner & Boat trips on Emajõgi",
       "location": "Lodjakoda",
       "webpage": "",
       "directions": "https://maps.app.goo.gl/3DPtEEDgwQ5oJkfg9",
@@ -1301,7 +1301,7 @@ export const eventsConfig = {
       "short_title": "MobilityBank",
       "author": [
         "Milad Malekzadeh",
-        "Ur\u0161ka Dem\u0161ar",
+        "Urška Demšar",
         "Henrikki Tikkanen",
         "Katarzyna Sila-Nowicka",
         "Jed Long"
@@ -1373,7 +1373,7 @@ export const eventsConfig = {
       "is_continued": false,
       "track": "track3",
       "theme": "workshop-f57f17",
-      "title": "Clear by design \u2013 A practical guide to making better maps and figures",
+      "title": "Clear by design – A practical guide to making better maps and figures",
       "short_title": "Map Design",
       "author": [
         "Liina Hints"
@@ -1390,7 +1390,7 @@ export const eventsConfig = {
       "is_continued": true,
       "track": "track3",
       "theme": "workshop-f57f17",
-      "title": "Clear by design \u2013 A practical guide to making better maps and figures",
+      "title": "Clear by design – A practical guide to making better maps and figures",
       "short_title": "Map Design",
       "author": [
         "Liina Hints"
@@ -1575,7 +1575,7 @@ export const eventsConfig = {
       "title": "Climate Surface Modelling with Remote and In-Situ Data",
       "short_title": "Climate Modelling",
       "author": [
-        "Llu\u00eds Pesquer Mayos"
+        "Lluís Pesquer Mayos"
       ],
       "location": "Room TBA",
       "time_start": "2026-06-16T16:00",
@@ -1589,7 +1589,7 @@ export const eventsConfig = {
       "track": "",
       "theme": "social-ffffff",
       "title": "Ice-Breaker",
-      "location": "V\u00e4ike Till Event Centre, Aparaaditehas",
+      "location": "Väike Till Event Centre, Aparaaditehas",
       "webpage": "https://sevensons.ee/kohad/vaike-till-sundmuskeskus/",
       "directions": "https://maps.app.goo.gl/MAdtgUFe9Qa2LASE6",
       "time_start": "2026-06-16T19:00",

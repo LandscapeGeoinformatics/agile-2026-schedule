@@ -82,7 +82,7 @@ export const eventsConfig = {
       "session_category": "Urban Morphology & Built Environment Analytics",
       "track": "track2",
       "theme": "presentation-56616c",
-      "title": "A framework for assessing the spatial distribution of heat vulnerability",
+      "title": "Beyond distance: assessing heat vulnerability through mobilitybased accessibility to cooling resources",
       "author": [
         "Muchun Li",
         "Lex Comber",
@@ -160,7 +160,7 @@ export const eventsConfig = {
       "session_category": "Transport Accessibility & Active Mobility",
       "track": "track3",
       "theme": "presentation-7b66a8",
-      "title": "Measuring accessibility in urban form: A reproducible network-based approach for urban analytics",
+      "title": "Measuring regional accessibility in urban form: A reproducible approach for urban analytics",
       "author": [
         "Mathias Jehling",
         "Lucie Kluwe",
@@ -329,7 +329,7 @@ export const eventsConfig = {
       "session_category": "Spatial Data Infrastructure & Scalable Analytics",
       "track": "track2",
       "theme": "presentation-2e5c8a",
-      "title": "Understanding Uncertainty in Binned Building Construction Year Data: Comparing EPC and Crowdsourced Datasets",
+      "title": "Uncertainty in Binned Building Construction Year Data: Comparing EPC and Crowdsourced Datasets",
       "author": [
         "Sophie Teichmann",
         "Polly Hudson",
@@ -560,7 +560,7 @@ export const eventsConfig = {
       "session_category": "Place Semantics & Spatial Knowledge Representation",
       "track": "track3",
       "theme": "presentation-8b3a3a",
-      "title": "An Ontology-Based Textual Location Description Framework for Multi-dimensional Features",
+      "title": "Ontology-based Textual Location Description Framework for Multidimensional Features",
       "author": [
         "Ting-Long Yan",
         "Chiao-Ling Kuo"
@@ -684,7 +684,7 @@ export const eventsConfig = {
       "session_category": "Participatory Mapping & Planning",
       "track": "track3",
       "theme": "presentation-d28f7b",
-      "title": "Can LLMs interpret participatory mapping comments at scale? Evidence from Prague's emotional mapping",
+      "title": "Can Large Language Models interpret participatory mapping comments at scale? Evidence from Prague’s emotional mapping",
       "author": [
         "Lydia Valdesera",
         "Thibaud Chassin",
@@ -700,7 +700,7 @@ export const eventsConfig = {
       "session_category": "Participatory Mapping & Planning",
       "track": "track3",
       "theme": "presentation-d28f7b",
-      "title": "Turning Geospatial Data into Planning Decisions: Evaluating a Participatory Accessibility Model for Urban Drinking Water.",
+      "title": "Turning Geospatial Data into Planning Decisions: Evaluating a Participatory Accessibility Model for Urban Drinking Water",
       "author": [
         "Oluwatimilehin Shonowo",
         "Xingyi Du",

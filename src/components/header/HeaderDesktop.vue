@@ -9,10 +9,22 @@
         {{ day.label }}
       </button>
     </div>
+    <!--
     <div class="track-selector">
       <span v-for="tc in currentDayTracks" :key="tc.key" class="track-pill" :class="`theme-${tc.theme}`">
         <span class="track-dot"></span>{{ tc.label }}
       </span>
+    </div>
+    -->
+    <div class="download-selector">
+      <button type="button" class="download-pill" @click="$emit('downloadSchedule')">
+        <span class="download-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false">
+            <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8zm0 1.5L17.5 8H14zM12 11v4.2l1.6-1.6.9.9-3.1 3.1-3.1-3.1.9-.9 1.6 1.6V11z"/>
+          </svg>
+        </span>
+        Download as PDF
+      </button>
     </div>
   </header>
 </template>
@@ -83,8 +95,56 @@ const currentDayTracks = computed(() => {
   flex-shrink: 0;
 }
 
+.download-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.download-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 25px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid #1e1c19;
+  background: #1e1c19;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 10px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s;
+}
+
+.download-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-icon svg {
+  width: 12px;
+  height: 12px;
+  fill: currentColor;
+}
+
+.download-pill:hover {
+  background: #3a3631;
+  border-color: #3a3631;
+}
+
 .day-pill {
-  padding: 5px 11px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  padding: 0 11px;
   border-radius: 0;
   border: 0;
   border-right: 1px solid #e0dbd4;
@@ -115,10 +175,11 @@ const currentDayTracks = computed(() => {
   display: inline-flex;
   align-items: center;
   gap: 5px;
+  height: 25px;
   font-size: 10px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding: 3px 9px;
+  padding: 0 9px;
   border-radius: 20px;
   border: 1px solid;
   background: var(--theme-bg);

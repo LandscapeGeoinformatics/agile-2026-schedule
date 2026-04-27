@@ -64,11 +64,11 @@ defineEmits(['setVisibleTrackIndex'])
   font-size: 10px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding: 3px 9px;
+  padding: 0 9px;
   border-radius: 20px;
   border: 1px solid;
   cursor: pointer;
-  height: 20px;
+  height: 25px;
   justify-content: center;
   color: var(--theme-color);
   border-color: var(--theme-border);
@@ -76,7 +76,7 @@ defineEmits(['setVisibleTrackIndex'])
 }
 
 .track-pill:not(.active) {
-  width: 20px;
+  width: 25px;
   padding: 0;
   border-radius: 50%;
 }

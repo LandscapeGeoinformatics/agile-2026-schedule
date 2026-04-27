@@ -3,8 +3,9 @@
 
     <!-- Headers -->
     <HeaderDesktop :title="title" :days="days" :visibleDayIndex="visibleDayIndex" :TRACK_COLUMNS="TRACK_COLUMNS"
-      @jumpToDay="jumpToDay" />
-    <HeaderMobile :title="title" :days="days" :visibleDayIndex="visibleDayIndex" @jumpToDay="jumpToDay" />
+      @jumpToDay="jumpToDay" @downloadSchedule="downloadSchedulePdf" />
+    <HeaderMobile :title="title" :days="days" :visibleDayIndex="visibleDayIndex" @jumpToDay="jumpToDay"
+      @downloadSchedule="downloadSchedulePdf" />
 
     <!-- Mobile track switch floating window -->
     <MobileTrackSelector v-if="TRACK_COLUMNS" :TRACK_COLUMNS="TRACK_COLUMNS" :visibleTrackIndex="visibleTrackIndex"
@@ -73,6 +74,7 @@
 <script setup>
 import { useTimetable } from '../composables/useTimetable'
 import { useScheduleNavigation } from '../composables/useScheduleNavigation'
+import { usePdfExport } from '../composables/usePdfExport'
 
 import Break from './events/Break.vue'
 import Social from './events/Social.vue'
@@ -109,6 +111,21 @@ const {
   TRACK_HEAD,
   TRACK_COLUMNS,
 } = useTimetable(props.scheduleType)
+
+const { generateAndDownload } = usePdfExport()
+
+const downloadSchedulePdf = () => {
+  const schedules = [
+    {
+      title: props.title,
+      days: days.value,
+      trackColumns: TRACK_COLUMNS.value
+    }
+  ]
+
+  const filename = `${props.scheduleType}-schedule.pdf`
+  generateAndDownload(schedules, filename)
+}
 
 // Helper to calculate Y position for a specific day's zones
 const timeToYForDay = (hourValue, zones) => {

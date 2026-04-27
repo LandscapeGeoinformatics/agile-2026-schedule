@@ -566,8 +566,8 @@ export const eventsConfig = {
         "Chiao-Ling Kuo"
       ],
       "location": "Room TBA",
-      "time_start": "2026-06-18T14:40",
-      "time_end": "2026-06-18T15:00"
+      "time_start": "2026-06-18T15:20",
+      "time_end": "2026-06-18T15:40"
     },
     {
       "event_group": "presentation",
@@ -600,8 +600,8 @@ export const eventsConfig = {
         "Ilya Ilyankou"
       ],
       "location": "Room TBA",
-      "time_start": "2026-06-18T15:20",
-      "time_end": "2026-06-18T15:40"
+      "time_start": "2026-06-18T15:00",
+      "time_end": "2026-06-18T15:20"
     },
     {
       "event_group": "presentation",
@@ -618,8 +618,8 @@ export const eventsConfig = {
         "Annika Suess"
       ],
       "location": "Room TBA",
-      "time_start": "2026-06-18T15:00",
-      "time_end": "2026-06-18T15:20"
+      "time_start": "2026-06-18T14:40",
+      "time_end": "2026-06-18T15:00"
     },
     {
       "event_group": "presentation",

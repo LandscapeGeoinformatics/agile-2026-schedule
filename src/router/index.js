@@ -1,10 +1,12 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Welcome from '../pages/Welcome.vue'
+import DownloadSchedule from '../pages/DownloadSchedule.vue'
 import MainConference from '../pages/MainConference.vue'
 import Workshops from '../pages/Workshops.vue'
 
 const routes = [
   { path: '/', component: Welcome },
+  { path: '/download-schedule', component: DownloadSchedule },
   { path: '/main-conference', component: MainConference },
   { path: '/workshops', component: Workshops }
 ]

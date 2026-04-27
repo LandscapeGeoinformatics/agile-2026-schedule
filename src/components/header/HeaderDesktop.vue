@@ -110,8 +110,8 @@ const currentDayTracks = computed(() => {
   height: 25px;
   padding: 0 12px;
   border-radius: 999px;
-  border: 1px solid #1e1c19;
-  background: #1e1c19;
+  border: 1px solid #2563eb;
+  background: #2563eb;
   color: #ffffff;
   text-decoration: none;
   font-size: 10px;
@@ -135,8 +135,8 @@ const currentDayTracks = computed(() => {
 }
 
 .download-pill:hover {
-  background: #3a3631;
-  border-color: #3a3631;
+  background: #1d4ed8;
+  border-color: #1d4ed8;
 }
 
 .day-pill {

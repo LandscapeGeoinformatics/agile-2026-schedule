@@ -25,7 +25,7 @@
             <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8zm0 1.5L17.5 8H14zM12 11v4.2l1.6-1.6.9.9-3.1 3.1-3.1-3.1.9-.9 1.6 1.6V11z"/>
           </svg>
         </span>
-        PDF
+        Download as PDF
       </button>
     </div>
   </header>
@@ -100,8 +100,8 @@ defineEmits(['jumpToDay', 'downloadSchedule'])
   height: 25px;
   padding: 0 10px;
   border-radius: 999px;
-  border: 1px solid #1e1c19;
-  background: #1e1c19;
+  border: 1px solid #2563eb;
+  background: #2563eb;
   color: #ffffff;
   text-decoration: none;
   font-size: 10px;
@@ -113,8 +113,8 @@ defineEmits(['jumpToDay', 'downloadSchedule'])
 }
 
 .download-pill:hover {
-  background: #3a3631;
-  border-color: #3a3631;
+  background: #1d4ed8;
+  border-color: #1d4ed8;
 }
 
 .download-icon {

@@ -17,6 +17,13 @@
             Conference schedule
           </router-link>
           <button
+            type="button"
+            @click="downloadFullSchedulePdf"
+            class="btn btn-download"
+          >
+            Download schedule as PDF
+          </button>
+          <button
             v-if="canInstall"
             class="btn btn-install"
             @click="installApp"
@@ -44,12 +51,35 @@
 
 <script setup>
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { useTimetable } from '../composables/useTimetable'
+import { usePdfExport } from '../composables/usePdfExport'
 
 const version = __APP_VERSION__
 const canInstall = ref(false)
 const showIosInstallHint = ref(false)
 const updateAvailable = ref(false)
 let deferredPrompt = null
+
+// Get both schedules
+const workshopsSchedule = useTimetable('workshops')
+const mainConferenceSchedule = useTimetable('main')
+const { generateAndDownload } = usePdfExport()
+
+const downloadFullSchedulePdf = () => {
+  const schedules = [
+    {
+      title: 'Workshops',
+      days: workshopsSchedule.days.value,
+      trackColumns: workshopsSchedule.TRACK_COLUMNS.value
+    },
+    {
+      title: 'Main Conference',
+      days: mainConferenceSchedule.days.value,
+      trackColumns: mainConferenceSchedule.TRACK_COLUMNS.value
+    }
+  ]
+  generateAndDownload(schedules, 'agile-2026-schedule.pdf')
+}
 
 const updateStatusLabel = computed(() =>
   updateAvailable.value ? 'Update available' : 'No updates available'
@@ -211,6 +241,17 @@ onBeforeUnmount(() => {
 
 .btn-install:hover {
   background: #f2f2f2;
+}
+
+.btn-download {
+  background: #2c2c2c;
+  color: #ffffff;
+  border-color: #2c2c2c;
+}
+
+.btn-download:hover {
+  background: #1a1a1a;
+  border-color: #1a1a1a;
 }
 
 .install-hint {

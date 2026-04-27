@@ -166,6 +166,36 @@ const {
   height: 100vh;
 }
 
+/* Export button */
+.export-button-container {
+  padding: 8px 12px;
+  background: #f4f2ef;
+  border-bottom: 1px solid #e0dbd4;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.export-button {
+  padding: 8px 16px;
+  background: #2c2c2c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 200ms ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.export-button:hover {
+  background: #1a1a1a;
+}
+
+.export-button:active {
+  transform: scale(0.98);
+}
+
 /* Schedule wrapper */
 .schedule-wrapper {
   height: calc(100vh - 57px);

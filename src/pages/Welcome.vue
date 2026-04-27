@@ -55,7 +55,9 @@ const updateAvailable = ref(false)
 let deferredPrompt = null
 
 const updateStatusLabel = computed(() =>
-  updateAvailable.value ? 'Update available' : 'No updates available'
+  updateAvailable.value
+    ? 'Changes in the timetable. Click here to update!'
+    : 'No updates available'
 )
 
 const handleBeforeInstallPrompt = (event) => {
@@ -262,9 +264,28 @@ onBeforeUnmount(() => {
   background: #e7f7ee;
   color: #166534;
   cursor: pointer;
+  animation: update-pill-pulse 1.8s ease-out infinite;
 }
 
 .version-pill--active:hover {
   background: #d5f1e2;
+}
+
+@keyframes update-pill-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(34, 140, 73, 0.45);
+  }
+  70% {
+    box-shadow: 0 0 0 12px rgba(34, 140, 73, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(34, 140, 73, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .version-pill--active {
+    animation: none;
+  }
 }
 </style>

@@ -63,7 +63,7 @@ export const eventsConfig = {
       "session_category": "Urban Morphology & Built Environment Analytics",
       "track": "track2",
       "theme": "presentation-56616c",
-      "title": "The potential of street-level and 3D views: Making public participation in urban planning more accessible to people with learning disabilities",
+      "title": "The potential of street-level and 3D views: Making public participation in urban planning more accessible to people with cognitive disabilities",
       "author": [
         "Judith Kirstein",
         "Carsten Keßler",
@@ -230,10 +230,10 @@ export const eventsConfig = {
       "session_category": "Street-Level Vision & Urban Environmental Perception",
       "track": "track2",
       "theme": "presentation-85929e",
-      "title": "Maximizing Data Coverage: Fusing Street View and Oblique Imagery to Quantify Vertical Greenery Potential",
+      "title": "Maximizing Data Coverage: Fusing Street View and Oblique Imagery to Quantify Vertical Greenery Potential in Urban Areas",
       "author": [
         "Aruscha Kramm",
-        "Andre Ludwig",
+        "André Ludwig",
         "Bogdan Franczyk"
       ],
       "location": "Room TBA",
@@ -382,7 +382,7 @@ export const eventsConfig = {
       "title": "Monitoring of pesticide treatment effects on crops using optical and SAR satellite remote sensing",
       "author": [
         "Tatjana Kuznecova",
-        "Gustavo Adolfo Garcia-Chapeton"
+        "Gustavo Garcia Chapeton"
       ],
       "location": "Room TBA",
       "time_start": "2026-06-18T16:30",
@@ -411,7 +411,7 @@ export const eventsConfig = {
       "theme": "presentation-275317",
       "title": "Validation of SWAT+ Hydrological Model Using Remote Sensing-Based  Evapotranspiration Data",
       "author": [
-        "Essmat Mohamed",
+        "Essmat A. A. Mohamed",
         "Amanda Batlle Morera",
         "Lluís Pesquer",
         "Miquel Ninyerola"
@@ -507,7 +507,7 @@ export const eventsConfig = {
       "session_category": "Public Health & Urban Vulnerability",
       "track": "track2",
       "theme": "presentation-753131",
-      "title": "Food Insecurity Projections for Anticipatory Action: A Comparative Spatiotemporal Analysis of FEWS NET and the IPC in Somalia",
+      "title": "Food Insecurity Projections for Anticipatory Action: Comparative Spatiotemporal Analysis of FEWS NET and the IPC in Somalia",
       "author": [
         "Ferdinand Seyffer",
         "Anne Schauss",
@@ -575,7 +575,7 @@ export const eventsConfig = {
       "session_category": "Best Paper Competition",
       "track": "",
       "theme": "presentation-f57f17",
-      "title": "Identifying the Semantic Neighbourhoods within London's Airbnb Properties",
+      "title": "A graph-based community detection approach for identifying the semantic neighbourhoods within London’s Airbnb properties",
       "author": [
         "Joseph Shingleton",
         "Yunus Serhat Bıçakçı",
@@ -615,7 +615,7 @@ export const eventsConfig = {
         "Krzysztof Janowicz",
         "Zilong Liu",
         "Songlin Wang",
-        "Annika Suess"
+        "Annika Süß"
       ],
       "location": "Room TBA",
       "time_start": "2026-06-18T14:40",
@@ -709,10 +709,12 @@ export const eventsConfig = {
         "Joao Porto de Albuquerque",
         "Qunshan Zhao",
         "Peter Elias",
-        "Sabitu Saad",
         "Kehinde Baruwa",
+        "Oluwatoyin Odulana",
+        "Sabitu Saad",
         "Taiwo Adekanmbi",
-        "Oluwatoyin Odulana"
+        "Solomon Abioye Olusegun",
+        "Jose Luis Fernandez-Marquez"
       ],
       "location": "Room TBA",
       "time_start": "2026-06-18T17:10",
@@ -727,7 +729,8 @@ export const eventsConfig = {
       "title": "Local Calibration of OpenStreetMap GPS Traces for Traffic Volume Estimation",
       "author": [
         "Michael Schötz",
-        "Martina Schöll"
+        "Martina Schöll",
+        "Thomas Limbrunner"
       ],
       "location": "Room TBA",
       "time_start": "2026-06-17T11:40",
@@ -816,9 +819,9 @@ export const eventsConfig = {
       "title": "CascadeCBF: Probabilistic Counting for Sparse Spatial Point Clouds",
       "author": [
         "Moritz Laass",
-        "Martin Werner",
         "Paul Walther",
-        "Wejdene Mansour"
+        "Wejdene Mansour",
+        "Martin Werner"
       ],
       "location": "Room TBA",
       "time_start": "2026-06-17T11:00",
@@ -868,7 +871,7 @@ export const eventsConfig = {
       "session_category": "LiDAR & 3D Geospatial Analysis",
       "track": "track1",
       "theme": "presentation-5d95d5",
-      "title": "A comparison of urban block 3D model variants considering attributes with an influence on urban analyses",
+      "title": "A comparison of generalised urban block 3D model variants considering attributes with an influence on urban analyses",
       "author": [
         "Alejandro Domínguez-Lapeña",
         "Rubén Béjar",
@@ -884,9 +887,9 @@ export const eventsConfig = {
       "session_category": "LiDAR & 3D Geospatial Analysis",
       "track": "track1",
       "theme": "presentation-5d95d5",
-      "title": "Enhancing OpenStreetMap Building Footprints through nDSM Based Geometric Segmentation for AI Training Data",
+      "title": "Enhancing OpenStreetMap Building Footprints through nDSM-Based Geometric Segmentation for AI Training Data",
       "author": [
-        "Paul Vincent Kuper",
+        "Paul Kuper",
         "Ruiqi Liu",
         "Hanwen Deng",
         "Martin Breunig"

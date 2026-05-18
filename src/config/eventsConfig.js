@@ -8,7 +8,7 @@ export const eventsConfig = {
       "theme": "opening-ffc000",
       "title": "Welcome",
       "author": [],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-17T09:00",
       "time_end": "2026-06-17T09:30"
     },
@@ -20,7 +20,7 @@ export const eventsConfig = {
       "theme": "networking-ffc000",
       "title": "Posters",
       "author": [],
-      "location": "Room TBA",
+      "location": "Ring Auditorium/Reiniku",
       "time_start": "2026-06-17T15:30",
       "time_end": "2026-06-17T18:00"
     },
@@ -31,7 +31,7 @@ export const eventsConfig = {
       "session_category": "Posters, Networking, Welcome, Closing",
       "theme": "networking-ffc000",
       "title": "Networking Session",
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-17T13:40",
       "time_end": "2026-06-17T15:00"
     },
@@ -53,7 +53,7 @@ export const eventsConfig = {
       "author": [
         "Ce Hou"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-18T11:20",
       "time_end": "2026-06-18T11:40"
     },
@@ -72,7 +72,7 @@ export const eventsConfig = {
         "Christian Walter-Klose",
         "Stefan Fleck"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-18T12:00",
       "time_end": "2026-06-18T12:20"
     },
@@ -82,13 +82,13 @@ export const eventsConfig = {
       "session_category": "Urban Morphology & Built Environment Analytics",
       "track": "track2",
       "theme": "presentation-56616c",
-      "title": "Beyond distance: assessing heat vulnerability through mobilitybased accessibility to cooling resources",
+      "title": "Beyond distance: assessing heat vulnerability through mobility-based accessibility to cooling resources",
       "author": [
         "Muchun Li",
         "Lex Comber",
         "Arjan Gosal"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-18T11:40",
       "time_end": "2026-06-18T12:00"
     },
@@ -103,7 +103,7 @@ export const eventsConfig = {
         "Luisa Lo Presti",
         "Peter Mooney"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-18T11:00",
       "time_end": "2026-06-18T11:20"
     },
@@ -118,7 +118,7 @@ export const eventsConfig = {
         "Martin Haamer",
         "Anto Aasa"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-18T11:00",
       "time_end": "2026-06-18T11:20"
     },
@@ -135,7 +135,7 @@ export const eventsConfig = {
         "Negar Alinaghi",
         "Ioannis Giannopoulos"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-18T11:40",
       "time_end": "2026-06-18T12:00"
     },
@@ -150,7 +150,7 @@ export const eventsConfig = {
         "Pablo S. Löw",
         "Jukka M. Krisp"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-18T12:00",
       "time_end": "2026-06-18T12:20"
     },
@@ -166,7 +166,7 @@ export const eventsConfig = {
         "Lucie Kluwe",
         "Caspar Kleiner"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-18T11:20",
       "time_end": "2026-06-18T11:40"
     },
@@ -182,7 +182,7 @@ export const eventsConfig = {
         "Chiao-Ling Kuo",
         "Zhi-Sheng Lin"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-18T14:20",
       "time_end": "2026-06-18T14:40"
     },
@@ -203,7 +203,7 @@ export const eventsConfig = {
         "Teresa Haselmayr",
         "Eva Nuhn"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-18T14:40",
       "time_end": "2026-06-18T15:00"
     },
@@ -220,7 +220,7 @@ export const eventsConfig = {
         "Yijing Li",
         "Zahratu Shabrina"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-18T15:00",
       "time_end": "2026-06-18T15:20"
     },
@@ -236,7 +236,7 @@ export const eventsConfig = {
         "André Ludwig",
         "Bogdan Franczyk"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-18T15:20",
       "time_end": "2026-06-18T15:40"
     },
@@ -250,9 +250,9 @@ export const eventsConfig = {
       "author": [
         "Mikael Brunila"
       ],
-      "location": "Room TBA",
-      "time_start": "2026-06-18T15:00",
-      "time_end": "2026-06-18T15:20"
+      "location": "Ring Auditorium",
+      "time_start": "2026-06-18T15:20",
+      "time_end": "2026-06-18T15:40"
     },
     {
       "event_group": "presentation",
@@ -264,7 +264,7 @@ export const eventsConfig = {
       "author": [
         "Christian Mueller-Kett"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-18T14:20",
       "time_end": "2026-06-18T14:40"
     },
@@ -280,7 +280,7 @@ export const eventsConfig = {
         "Gerhard Navratil",
         "Ioannis Giannopoulos"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-18T14:40",
       "time_end": "2026-06-18T15:00"
     },
@@ -304,9 +304,9 @@ export const eventsConfig = {
         "Alexander Kmoch",
         "Evelyn Uuemaa"
       ],
-      "location": "Room TBA",
-      "time_start": "2026-06-18T15:20",
-      "time_end": "2026-06-18T15:40"
+      "location": "Ring Auditorium",
+      "time_start": "2026-06-18T15:00",
+      "time_end": "2026-06-18T15:20"
     },
     {
       "event_group": "presentation",
@@ -319,7 +319,7 @@ export const eventsConfig = {
         "James Ackland",
         "Ana Basiri"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-18T16:10",
       "time_end": "2026-06-18T16:30"
     },
@@ -337,7 +337,7 @@ export const eventsConfig = {
         "Hendrik Herold",
         "Robert Hecht"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-18T16:30",
       "time_end": "2026-06-18T16:50"
     },
@@ -353,7 +353,7 @@ export const eventsConfig = {
         "Urs Albert Treier",
         "Signe Normand"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-18T16:50",
       "time_end": "2026-06-18T17:10"
     },
@@ -369,7 +369,7 @@ export const eventsConfig = {
         "Alexander Kmoch",
         "Evelyn Uuemaa"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-18T17:10",
       "time_end": "2026-06-18T17:30"
     },
@@ -384,7 +384,7 @@ export const eventsConfig = {
         "Tatjana Kuznecova",
         "Gustavo Garcia Chapeton"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-18T16:30",
       "time_end": "2026-06-18T16:50"
     },
@@ -399,7 +399,7 @@ export const eventsConfig = {
         "Valentina Sagris",
         "Tõnu Oja"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-18T17:10",
       "time_end": "2026-06-18T17:30"
     },
@@ -416,7 +416,7 @@ export const eventsConfig = {
         "Lluís Pesquer",
         "Miquel Ninyerola"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-18T16:50",
       "time_end": "2026-06-18T17:10"
     },
@@ -438,7 +438,7 @@ export const eventsConfig = {
       "author": [
         "Prof. Bernd Resch"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-19T09:00",
       "time_end": "2026-06-19T10:00"
     },
@@ -452,7 +452,7 @@ export const eventsConfig = {
       "author": [
         "Pieter Kempeneers"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-18T09:30",
       "time_end": "2026-06-18T10:30"
     },
@@ -467,7 +467,7 @@ export const eventsConfig = {
         "Fernando Benitez-Paez",
         "Yonatan Tarazona Coronel"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-18T16:10",
       "time_end": "2026-06-18T16:30"
     },
@@ -481,7 +481,7 @@ export const eventsConfig = {
       "author": [
         "Gordonas Jankūnas"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-17T11:20",
       "time_end": "2026-06-17T11:40"
     },
@@ -497,7 +497,7 @@ export const eventsConfig = {
         "Marcel Maurer",
         "Alexander Zipf"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-17T11:40",
       "time_end": "2026-06-17T12:00"
     },
@@ -516,7 +516,7 @@ export const eventsConfig = {
         "Sven Lautenbach",
         "Alexander Zipf"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-17T12:00",
       "time_end": "2026-06-17T12:20"
     },
@@ -533,7 +533,7 @@ export const eventsConfig = {
         "Johannes Huber",
         "Alexander Zipf"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-17T11:00",
       "time_end": "2026-06-17T11:20"
     },
@@ -550,7 +550,7 @@ export const eventsConfig = {
         "Maguelonne Teisseire",
         "Sarah Valentin"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-18T14:20",
       "time_end": "2026-06-18T14:40"
     },
@@ -565,7 +565,7 @@ export const eventsConfig = {
         "Ting-Long Yan",
         "Chiao-Ling Kuo"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-18T15:20",
       "time_end": "2026-06-18T15:40"
     },
@@ -582,7 +582,7 @@ export const eventsConfig = {
         "Ana Basiri",
         "Meiliu Wu"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-19T11:30",
       "time_end": "2026-06-19T11:50"
     },
@@ -599,7 +599,7 @@ export const eventsConfig = {
         "Tatu Leppämäki",
         "Ilya Ilyankou"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-18T15:00",
       "time_end": "2026-06-18T15:20"
     },
@@ -617,7 +617,7 @@ export const eventsConfig = {
         "Songlin Wang",
         "Annika Süß"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-18T14:40",
       "time_end": "2026-06-18T15:00"
     },
@@ -633,7 +633,7 @@ export const eventsConfig = {
         "Maria Moleiro Dale",
         "Jörg Rainer Noennig"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-18T16:10",
       "time_end": "2026-06-18T16:30"
     },
@@ -652,7 +652,7 @@ export const eventsConfig = {
         "Alexander Zipf",
         "Yulia Grinblat"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-18T16:30",
       "time_end": "2026-06-18T16:50"
     },
@@ -666,7 +666,7 @@ export const eventsConfig = {
       "author": [
         "Prof. Tuuli Toivonen"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-17T09:30",
       "time_end": "2026-06-17T10:30"
     },
@@ -690,7 +690,7 @@ export const eventsConfig = {
         "Thibaud Chassin",
         "Jiří Pánek"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-18T16:50",
       "time_end": "2026-06-18T17:10"
     },
@@ -716,7 +716,7 @@ export const eventsConfig = {
         "Solomon Abioye Olusegun",
         "Jose Luis Fernandez-Marquez"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-18T17:10",
       "time_end": "2026-06-18T17:30"
     },
@@ -732,7 +732,7 @@ export const eventsConfig = {
         "Martina Schöll",
         "Thomas Limbrunner"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-17T11:40",
       "time_end": "2026-06-17T12:00"
     },
@@ -750,7 +750,7 @@ export const eventsConfig = {
         "Tiina Lankila",
         "Ossi Kotavaara"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-17T12:00",
       "time_end": "2026-06-17T12:20"
     },
@@ -768,7 +768,7 @@ export const eventsConfig = {
         "Andrea Nasuto",
         "Francisco Rowe"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-17T12:20",
       "time_end": "2026-06-17T12:40"
     },
@@ -786,7 +786,7 @@ export const eventsConfig = {
         "Laurent Cazor",
         "Thomas Rasmussen"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-17T11:20",
       "time_end": "2026-06-17T11:40"
     },
@@ -806,7 +806,7 @@ export const eventsConfig = {
         "Tania Gullón Muñoz-Repiso",
         "Robin Lovelace"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-17T11:00",
       "time_end": "2026-06-17T11:20"
     },
@@ -823,7 +823,7 @@ export const eventsConfig = {
         "Wejdene Mansour",
         "Martin Werner"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-17T11:00",
       "time_end": "2026-06-17T11:20"
     },
@@ -842,7 +842,7 @@ export const eventsConfig = {
         "Ivette Serral",
         "Miquel Ninyerola"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-17T11:20",
       "time_end": "2026-06-17T11:40"
     },
@@ -861,7 +861,7 @@ export const eventsConfig = {
         "Aveliina Helm",
         "Evelyn Uuemaa"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-17T12:20",
       "time_end": "2026-06-17T12:40"
     },
@@ -877,7 +877,7 @@ export const eventsConfig = {
         "Rubén Béjar",
         "Ana Ruiz-Varona"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-17T11:40",
       "time_end": "2026-06-17T12:00"
     },
@@ -894,7 +894,7 @@ export const eventsConfig = {
         "Hanwen Deng",
         "Martin Breunig"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-17T12:00",
       "time_end": "2026-06-17T12:20"
     },
@@ -919,7 +919,7 @@ export const eventsConfig = {
         "Hao Li",
         "Martin Werner"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-18T11:00",
       "time_end": "2026-06-18T11:20"
     },
@@ -935,7 +935,7 @@ export const eventsConfig = {
         "Krzysztof Janowicz",
         "Mina Karimi"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-18T11:20",
       "time_end": "2026-06-18T11:40"
     },
@@ -952,7 +952,7 @@ export const eventsConfig = {
         "Tao Cheng",
         "James Haworth"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-18T11:40",
       "time_end": "2026-06-18T12:00"
     },
@@ -969,7 +969,7 @@ export const eventsConfig = {
         "Julius Fricke",
         "Martin Werner"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-18T12:00",
       "time_end": "2026-06-18T12:20"
     },
@@ -984,24 +984,9 @@ export const eventsConfig = {
         "Vicente Tang",
         "Marco Painho"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-17T13:40",
       "time_end": "2026-06-17T14:00"
-    },
-    {
-      "event_group": "presentation",
-      "event_format": "presentation",
-      "session_category": "Education track",
-      "track": "track2",
-      "theme": "presentation-e67e22",
-      "title": "Co-designing GeoAi Projects with Master Students",
-      "author": [
-        "Catherine Jones",
-        "Alexander Skinner"
-      ],
-      "location": "Room TBA",
-      "time_start": "2026-06-17T14:00",
-      "time_end": "2026-06-17T14:20"
     },
     {
       "event_group": "presentation",
@@ -1014,23 +999,9 @@ export const eventsConfig = {
         "Carmen Cabrera",
         "Elisabetta Pietrostefani"
       ],
-      "location": "Room TBA",
-      "time_start": "2026-06-17T14:20",
-      "time_end": "2026-06-17T14:40"
-    },
-    {
-      "event_group": "presentation",
-      "event_format": "presentation",
-      "session_category": "Education track",
-      "track": "track2",
-      "theme": "presentation-e67e22",
-      "title": "Making Satellite Imagery Useful, Usable, And Used",
-      "author": [
-        "Shaonlee Patranabis"
-      ],
-      "location": "Room TBA",
-      "time_start": "2026-06-17T14:40",
-      "time_end": "2026-06-17T15:00"
+      "location": "Room 327",
+      "time_start": "2026-06-17T14:00",
+      "time_end": "2026-06-17T14:20"
     },
     {
       "event_group": "presentation",
@@ -1048,7 +1019,7 @@ export const eventsConfig = {
         "Jürgen Ehrensberger",
         "Jens Ingensand"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-17T13:40",
       "time_end": "2026-06-17T14:00"
     },
@@ -1066,7 +1037,7 @@ export const eventsConfig = {
         "James Woodcock",
         "Roel Vermeulen"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-17T14:20",
       "time_end": "2026-06-17T14:40"
     },
@@ -1083,7 +1054,7 @@ export const eventsConfig = {
         "Marius Le Maréchal",
         "Stéphane Roche"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-17T14:40",
       "time_end": "2026-06-17T15:00"
     },
@@ -1097,7 +1068,7 @@ export const eventsConfig = {
       "author": [
         "Urska Demsar"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-17T14:00",
       "time_end": "2026-06-17T14:20"
     },
@@ -1123,7 +1094,7 @@ export const eventsConfig = {
         "Sebastian Schmidt",
         "Bernd Resch"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-19T10:50",
       "time_end": "2026-06-19T11:10"
     },
@@ -1139,7 +1110,7 @@ export const eventsConfig = {
         "Thomas Gegenleithner",
         "Johannes Scholz"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-19T11:10",
       "time_end": "2026-06-19T11:30"
     },
@@ -1161,7 +1132,7 @@ export const eventsConfig = {
         "Hsueh Cheng-Luen",
         "Katarzyna Sila-Nowicka"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-17T12:20",
       "time_end": "2026-06-17T12:40"
     },
@@ -1179,7 +1150,7 @@ export const eventsConfig = {
         "Thomas Devogele",
         "Mathieu Garel"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-19T10:30",
       "time_end": "2026-06-19T10:50"
     },
@@ -1196,7 +1167,7 @@ export const eventsConfig = {
         "Daan van Os",
         "Judith Verstegen"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-19T11:50",
       "time_end": "2026-06-19T12:10"
     },
@@ -1212,7 +1183,7 @@ export const eventsConfig = {
         "Azarakhsh Rafiee",
         "Peter van Oosterom"
       ],
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-19T12:10",
       "time_end": "2026-06-19T12:30"
     },
@@ -1254,7 +1225,7 @@ export const eventsConfig = {
       "track": "",
       "theme": "keynote-c00000",
       "title": "Announcement of AGILE 2027 Conference",
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-19T13:00",
       "time_end": "2026-06-19T13:10"
     },
@@ -1264,7 +1235,7 @@ export const eventsConfig = {
       "track": "",
       "theme": "assembly-1a3a4a",
       "title": "AGILE Annual Assembly",
-      "location": "Room TBA",
+      "location": "Ring Auditorium",
       "time_start": "2026-06-18T13:20",
       "time_end": "2026-06-18T14:20"
     },
@@ -1309,7 +1280,7 @@ export const eventsConfig = {
         "Katarzyna Sila-Nowicka",
         "Jed Long"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-16T09:00",
       "time_end": "2026-06-16T10:45",
       "description": "",
@@ -1326,7 +1297,7 @@ export const eventsConfig = {
       "author": [
         "Milad Malekzadeh"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-16T11:15",
       "time_end": "2026-06-16T13:00",
       "description": "",
@@ -1345,7 +1316,7 @@ export const eventsConfig = {
         "Alexandra Fortacz",
         "Yingjing Huang"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-16T09:00",
       "time_end": "2026-06-16T10:45",
       "description": "",
@@ -1364,7 +1335,7 @@ export const eventsConfig = {
         "Alexandra Fortacz",
         "Yingjing Huang"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-16T11:15",
       "time_end": "2026-06-16T13:00",
       "description": "",
@@ -1381,7 +1352,7 @@ export const eventsConfig = {
       "author": [
         "Liina Hints"
       ],
-      "location": "Room TBA",
+      "location": "Room 202",
       "time_start": "2026-06-16T09:00",
       "time_end": "2026-06-16T10:45",
       "description": "",
@@ -1398,7 +1369,7 @@ export const eventsConfig = {
       "author": [
         "Liina Hints"
       ],
-      "location": "Room TBA",
+      "location": "Room 202",
       "time_start": "2026-06-16T11:15",
       "time_end": "2026-06-16T13:00",
       "description": "",
@@ -1415,7 +1386,7 @@ export const eventsConfig = {
       "author": [
         "Frank Ostermann"
       ],
-      "location": "Room TBA",
+      "location": "Room 335a",
       "time_start": "2026-06-16T09:00",
       "time_end": "2026-06-16T10:45",
       "description": "",
@@ -1432,7 +1403,7 @@ export const eventsConfig = {
       "author": [
         "Frank Ostermann"
       ],
-      "location": "Room TBA",
+      "location": "Room 335a",
       "time_start": "2026-06-16T11:15",
       "time_end": "2026-06-16T13:00",
       "description": "",
@@ -1450,7 +1421,7 @@ export const eventsConfig = {
       "event_group": "workshop",
       "event_format": "workshop",
       "is_continued": false,
-      "track": "track1",
+      "track": "track4",
       "theme": "workshop-1565c0",
       "title": "Inclusive walkability data through virtual audits: populations and features (InWalkData)",
       "short_title": "InWalkData",
@@ -1459,7 +1430,7 @@ export const eventsConfig = {
         "Johannes Huber",
         "Alexander Zipf"
       ],
-      "location": "Room TBA",
+      "location": "Room 335a",
       "time_start": "2026-06-16T13:45",
       "time_end": "2026-06-16T15:30",
       "description": "",
@@ -1469,7 +1440,7 @@ export const eventsConfig = {
       "event_group": "workshop",
       "event_format": "workshop",
       "is_continued": true,
-      "track": "track1",
+      "track": "track4",
       "theme": "workshop-1565c0",
       "title": "Inclusive walkability data through virtual audits: populations and features (InWalkData)",
       "short_title": "InWalkData",
@@ -1478,7 +1449,7 @@ export const eventsConfig = {
         "Johannes Huber",
         "Alexander Zipf"
       ],
-      "location": "Room TBA",
+      "location": "Room 335a",
       "time_start": "2026-06-16T16:00",
       "time_end": "2026-06-16T17:45",
       "description": "",
@@ -1495,7 +1466,7 @@ export const eventsConfig = {
       "author": [
         "Meiliu Wu"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-16T13:45",
       "time_end": "2026-06-16T15:30",
       "description": "",
@@ -1512,7 +1483,7 @@ export const eventsConfig = {
       "author": [
         "Meiliu Wu"
       ],
-      "location": "Room TBA",
+      "location": "Room 246",
       "time_start": "2026-06-16T16:00",
       "time_end": "2026-06-16T17:45",
       "description": "",
@@ -1529,7 +1500,7 @@ export const eventsConfig = {
       "author": [
         "Deyan Samardzhiev"
       ],
-      "location": "Room TBA",
+      "location": "Room 202",
       "time_start": "2026-06-16T13:45",
       "time_end": "2026-06-16T15:30",
       "description": "",
@@ -1539,14 +1510,14 @@ export const eventsConfig = {
       "event_group": "workshop",
       "event_format": "workshop",
       "is_continued": false,
-      "track": "track4",
+      "track": "track1",
       "theme": "workshop-1565c0",
       "title": "Uncertain Geodata: Bias, Missingness & GeoAI",
       "short_title": "Uncertain Geodata",
       "author": [
         "James Ackland"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-16T13:45",
       "time_end": "2026-06-16T15:30",
       "description": "",
@@ -1556,14 +1527,14 @@ export const eventsConfig = {
       "event_group": "workshop",
       "event_format": "workshop",
       "is_continued": true,
-      "track": "track4",
+      "track": "track1",
       "theme": "workshop-1565c0",
       "title": "Uncertain Geodata: Bias, Missingness & GeoAI",
       "short_title": "Uncertain Geodata",
       "author": [
         "James Ackland"
       ],
-      "location": "Room TBA",
+      "location": "Room 327",
       "time_start": "2026-06-16T16:00",
       "time_end": "2026-06-16T17:45",
       "description": "",
@@ -1580,7 +1551,7 @@ export const eventsConfig = {
       "author": [
         "Lluís Pesquer Mayos"
       ],
-      "location": "Room TBA",
+      "location": "Room 202",
       "time_start": "2026-06-16T16:00",
       "time_end": "2026-06-16T17:45",
       "description": "",

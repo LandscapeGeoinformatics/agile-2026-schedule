@@ -19,7 +19,7 @@ export const timetablesConfig = {
           { startHour: "13:40", endHour: "15:00", pxPerMin: 14 },
           { startHour: "15:00", endHour: "18:00", pxPerMin: 2 },
           { startHour: "18:00", endHour: "20:00", pxPerMin: 4 },
-          { startHour: "20:00", endHour: "21:00", pxPerMin: 2 }
+          { startHour: "20:00", endHour: "24:00", pxPerMin: 2 }
         ]
       },
       {

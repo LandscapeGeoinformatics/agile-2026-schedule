@@ -2,7 +2,7 @@
   <div class="event-break" :style="placementStyle">
     <div class="event-break-inner">
       <span class="event-break-title">{{ event.title }}</span>
-      <span class="event-break-time">{{ event.startFmt }} – {{ event.endFmt }}</span>
+      <span class="event-break-time"v-if="event.height > 25">{{ event.startFmt }} – {{ event.endFmt }}</span>
     </div>
   </div>
 </template>
@@ -45,7 +45,7 @@ defineProps({
 
 .event-break-inner {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 3px;

@@ -122,11 +122,11 @@ defineProps({
 }
 
 .networking-description {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--theme-text);
   opacity: 0.85;
   line-height: 1.5;
-  text-align: center;
+  text-align: justify;
   padding: 0 4px;
 }
 

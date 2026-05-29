@@ -1250,7 +1250,7 @@ export const eventsConfig = {
       "location": "Pühaste kelder | Pubi RP 9 | Vein ja Vine | Möku",
       "webpage": "",
       "directions": "",
-      "time_start": "2026-06-17T19:00",
+      "time_start": "2026-06-17T20:00",
       "time_end": "2026-06-17T23:00"
     },
     {

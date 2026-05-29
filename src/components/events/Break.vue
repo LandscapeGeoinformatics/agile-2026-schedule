@@ -45,7 +45,7 @@ defineProps({
 
 .event-break-inner {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 3px;

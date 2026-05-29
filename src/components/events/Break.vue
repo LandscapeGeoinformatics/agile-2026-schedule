@@ -2,7 +2,7 @@
   <div class="event-break" :style="placementStyle">
     <div class="event-break-inner">
       <span class="event-break-title">{{ event.title }}</span>
-      <span class="event-break-time"v-if="event.height > 25">{{ event.startFmt }} – {{ event.endFmt }}</span>
+      <span class="event-break-time" v-if="(event.endMin - event.startMin) > 20">{{ event.startFmt }} – {{ event.endFmt }}</span>
     </div>
   </div>
 </template>

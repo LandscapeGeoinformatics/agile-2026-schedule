@@ -7,6 +7,7 @@
     <div class="networking-inner">
       <span class="networking-badge">{{ event.event_format }}</span>
       <div class="networking-title">{{ event.title }}</div>
+      <div class="networking-description" v-if="event.description">{{ event.description }}</div>
       <div class="networking-location" v-if="event.location">{{ event.location }}</div>
       <div class="networking-time">{{ event.startFmt }} – {{ event.endFmt }}</div>
     </div>
@@ -118,6 +119,15 @@ defineProps({
   justify-content: center;
   gap: 12px;
   text-align: center;
+}
+
+.networking-description {
+  font-size: 12px;
+  color: var(--theme-text);
+  opacity: 0.85;
+  line-height: 1.5;
+  text-align: center;
+  padding: 0 4px;
 }
 
 .networking-time {

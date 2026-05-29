@@ -21,7 +21,7 @@ export const eventsConfig = {
       "title": "Posters",
       "author": [],
       "location": "Ring Auditorium/Reiniku",
-      "time_start": "2026-06-17T15:30",
+      "time_start": "2026-06-17T15:15",
       "time_end": "2026-06-17T18:00"
     },
     {
@@ -33,7 +33,8 @@ export const eventsConfig = {
       "title": "Networking Session",
       "location": "Room 246",
       "time_start": "2026-06-17T13:40",
-      "time_end": "2026-06-17T15:00"
+      "time_end": "2026-06-17T15:00",
+      "description": "Join the Networking Session for an interactive speed-networking experience where researchers can connect through short one-on-one conversations, rotating topic tables, and opportunities to connect with researchers across shared interests. Your next collaborator, mentor, or co-author could be just one conversation away."
     },
     {
       "event_group": "break",
@@ -251,8 +252,8 @@ export const eventsConfig = {
         "Mikael Brunila"
       ],
       "location": "Ring Auditorium",
-      "time_start": "2026-06-18T15:20",
-      "time_end": "2026-06-18T15:40"
+      "time_start": "2026-06-18T15:00",
+      "time_end": "2026-06-18T15:20"
     },
     {
       "event_group": "presentation",
@@ -305,8 +306,8 @@ export const eventsConfig = {
         "Evelyn Uuemaa"
       ],
       "location": "Ring Auditorium",
-      "time_start": "2026-06-18T15:00",
-      "time_end": "2026-06-18T15:20"
+      "time_start": "2026-06-18T15:20",
+      "time_end": "2026-06-18T15:40"
     },
     {
       "event_group": "presentation",
@@ -397,7 +398,8 @@ export const eventsConfig = {
       "title": "Advancing National Fire Danger Forecasting through Geoinformatics",
       "author": [
         "Valentina Sagris",
-        "Tõnu Oja"
+        "Tõnu Oja",
+        "Merle Muru"
       ],
       "location": "Ring Auditorium",
       "time_start": "2026-06-18T17:10",
@@ -1193,7 +1195,7 @@ export const eventsConfig = {
       "track": "",
       "title": "Coffee Break",
       "time_start": "2026-06-17T15:00",
-      "time_end": "2026-06-17T15:30"
+      "time_end": "2026-06-17T15:15"
     },
     {
       "event_group": "break",
@@ -1244,8 +1246,20 @@ export const eventsConfig = {
       "event_format": "social",
       "track": "",
       "theme": "social-ffffff",
+      "title": "Pub Crawl",
+      "location": "Pühaste kelder | Pubi RP 9 | Vein ja Vine | Möku",
+      "webpage": "",
+      "directions": "",
+      "time_start": "2026-06-17T19:00",
+      "time_end": "2026-06-17T23:00"
+    },
+    {
+      "event_group": "social",
+      "event_format": "social",
+      "track": "",
+      "theme": "social-ffffff",
       "title": "Guided city tour in Tartu",
-      "location": "Location TBA",
+      "location": "Town Hall Square, next to the fountain",
       "webpage": "",
       "directions": "",
       "time_start": "2026-06-17T19:00",

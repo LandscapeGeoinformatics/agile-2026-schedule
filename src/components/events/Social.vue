@@ -109,6 +109,7 @@ defineProps({
   font-weight: 600;
   color: var(--theme-text);
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .social-location {

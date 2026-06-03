@@ -26,7 +26,7 @@
     </div>
 
     <div class="event-footer" v-if="event.session_chair">
-      Chaired by {{event.session_chair}}
+      Session chair: {{event.session_chair}}
     </div>
 
   </div>

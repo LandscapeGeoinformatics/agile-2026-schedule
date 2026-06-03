@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="keynote-time">{{ event.startFmt }} – {{ event.endFmt }} @ {{ event.location }}</div>
-      <div class="keynote-chair" v-if="event.session_chair">Chaired by {{ event.session_chair }}</div>
+      <div class="keynote-chair" v-if="event.session_chair">Session chair: {{ event.session_chair }}</div>
     </div>
   </div>
 </template>

@@ -120,7 +120,7 @@ export const eventsConfig = {
       "event_group": "break",
       "event_format": "break",
       "track": "",
-      "title": "Coffee Break",
+      "title": "Break",
       "time_start": "2026-06-17T15:00",
       "time_end": "2026-06-17T15:15"
     },

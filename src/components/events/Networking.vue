@@ -122,12 +122,15 @@ defineProps({
 }
 
 .networking-description {
-  font-size: 13px;
+  font-size: 14px;
+  font-style: italic;
   color: var(--theme-text);
-  opacity: 0.85;
-  line-height: 1.5;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-size: 13px;
   text-align: justify;
-  padding: 0 4px;
+  opacity: 0.7;
+  font-weight: 500;
 }
 
 .networking-time {

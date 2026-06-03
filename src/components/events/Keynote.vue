@@ -13,6 +13,7 @@
         </div>
       </div>
       <div class="keynote-time">{{ event.startFmt }} – {{ event.endFmt }} @ {{ event.location }}</div>
+      <div class="keynote-chair" v-if="event.session_chair">Chaired by {{ event.session_chair }}</div>
     </div>
   </div>
 </template>
@@ -107,7 +108,15 @@ defineProps({
   font-weight: 600;
   color: var(--theme-text);
   font-style: italic;
-  opacity: 0.6;
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+.keynote-chair {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--theme-text);
+  opacity: 0.7;
 }
 
 .keynote-time {

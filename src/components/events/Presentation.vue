@@ -24,6 +24,11 @@
         <span v-if="event.location" class="event-room">{{ event.location }}</span>
       </div>
     </div>
+
+    <div class="event-footer" v-if="event.session_chair">
+      Chaired by {{event.session_chair}}
+    </div>
+
   </div>
 </template>
 
@@ -77,6 +82,19 @@ const splitSessionCategory = (category) => {
   gap: 6px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   height: 48px;
+}
+
+.event-footer {
+  height: 48px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 13px;
+  font-weight: 600;
+  background: linear-gradient(to bottom, #ffffff, #f5f5f5);
+  color: var(--theme-color);
 }
 
 .event-inner {

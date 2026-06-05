@@ -344,7 +344,7 @@ export const eventsConfig = {
       "event_format": "keynote",
       "track": "",
       "session_category": "Keynote",
-      "session_chair": "",
+      "session_chair": "Ali Mansourian",
       "theme": "keynote-c00000",
       "title": "Agentic AI Systems for Geospatial Intelligence in Support of EU Policy",
       "author": [
@@ -1248,21 +1248,6 @@ export const eventsConfig = {
       "session_chair": "Carmen Cabrera",
       "track": "track2",
       "theme": "presentation-56616c",
-      "title": "Transferred Bias Uncovers the Balance Between the Development of Physical and Socioeconomic Environments of Cities",
-      "author": [
-        "Ce Hou"
-      ],
-      "location": "Room 327",
-      "time_start": "2026-06-18T11:20",
-      "time_end": "2026-06-18T11:40"
-    },
-    {
-      "event_group": "presentation",
-      "event_format": "presentation",
-      "session_category": "Urban Morphology & Built Environment Analytics",
-      "session_chair": "Carmen Cabrera",
-      "track": "track2",
-      "theme": "presentation-56616c",
       "title": "The potential of street-level and 3D views: Making public participation in urban planning more accessible to people with cognitive disabilities",
       "author": [
         "Judith Kirstein",
@@ -1273,8 +1258,8 @@ export const eventsConfig = {
         "Stefan Fleck"
       ],
       "location": "Room 327",
-      "time_start": "2026-06-18T12:00",
-      "time_end": "2026-06-18T12:20"
+      "time_start": "2026-06-18T11:40",
+      "time_end": "2026-06-18T12:00"
     },
     {
       "event_group": "presentation",
@@ -1290,8 +1275,8 @@ export const eventsConfig = {
         "Arjan Gosal"
       ],
       "location": "Room 327",
-      "time_start": "2026-06-18T11:40",
-      "time_end": "2026-06-18T12:00"
+      "time_start": "2026-06-18T11:20",
+      "time_end": "2026-06-18T11:40"
     },
     {
       "event_group": "presentation",

@@ -41,6 +41,7 @@
 
             <!-- Track-independent events -->
             <template v-for="ev in day.events.filter(e => !e.track)" :key="ev.title">
+              <Registration v-if="ev.event_format === 'registration'" :event="ev" :placement-style="eventStyle(ev)" />
               <Break v-if="ev.event_format === 'break'" :event="ev" :placement-style="eventStyle(ev)" />
               <Keynote v-else-if="ev.event_format === 'keynote' || ev.event_format === 'announcement'" :event="ev" :placement-style="eventStyle(ev)" />
               <Assembly v-else-if="ev.event_format === 'assembly'" :event="ev" :placement-style="eventStyle(ev)" />
@@ -86,6 +87,7 @@ import Workshop from './events/Workshop.vue'
 import Milestone from './events/Milestone.vue'
 import Networking from './events/Networking.vue'
 import Presentation from './events/Presentation.vue'
+import Registration from './events/Registration.vue'
 
 import TrackHeader from './track/TrackHeader.vue'
 import HeaderDesktop from './header/HeaderDesktop.vue'

@@ -10,7 +10,7 @@ export const timetablesConfig = {
       {
         "date": "2026-06-17",
         "SCALE_ZONES": [
-          { startHour: "08:00", endHour: "09:00", pxPerMin: 2 },
+          { startHour: "07:30", endHour: "09:00", pxPerMin: 2 },
           { startHour: "09:00", endHour: "09:30", pxPerMin: 6 },
           { startHour: "09:30", endHour: "10:30", pxPerMin: 4 },
           { startHour: "10:30", endHour: "11:00", pxPerMin: 2 },
@@ -62,7 +62,7 @@ export const timetablesConfig = {
       {
         "date": "2026-06-16",
         "SCALE_ZONES": [
-          { startHour: "08:00", endHour: "9:00", pxPerMin: 2 },
+          { startHour: "07:30", endHour: "09:00", pxPerMin: 2 },
           { startHour: "09:00", endHour: "18:00", pxPerMin: 3 },
           { startHour: "18:00", endHour: "24:00", pxPerMin: 1 }
         ]

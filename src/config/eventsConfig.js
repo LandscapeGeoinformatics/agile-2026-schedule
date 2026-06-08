@@ -1669,6 +1669,15 @@ export const eventsConfig = {
       "title": "Coffee Break",
       "time_start": "2026-06-16T15:30",
       "time_end": "2026-06-16T16:00"
+    },
+    {
+      "event_group": "registration",
+      "event_format": "registration",
+      "track": "",
+      "title": "Registration desk open",
+      "location": "Vanemuise 46",
+      "time_start": "2026-06-16T08:00",
+      "time_end": "2026-06-16T09:00"
     }
   ]
 }

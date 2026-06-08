@@ -1104,7 +1104,7 @@ export const eventsConfig = {
       "event_group": "presentation",
       "event_format": "presentation",
       "session_category": "Street-Level Vision & Urban Environmental Perception",
-      "session_chair": "",
+      "session_chair": "Frank Ostermann",
       "track": "track2",
       "theme": "presentation-85929e",
       "title": "Enhancing arcade detection using bi-directed scene graphs with graph convolutional networks on street view imagery",
@@ -1121,7 +1121,7 @@ export const eventsConfig = {
       "event_group": "presentation",
       "event_format": "presentation",
       "session_category": "Street-Level Vision & Urban Environmental Perception",
-      "session_chair": "",
+      "session_chair": "Frank Ostermann",
       "track": "track2",
       "theme": "presentation-85929e",
       "title": "Assessing Perceived Walkability: a case study using eye-tracking and think-aloud with street images",
@@ -1143,7 +1143,7 @@ export const eventsConfig = {
       "event_group": "presentation",
       "event_format": "presentation",
       "session_category": "Street-Level Vision & Urban Environmental Perception",
-      "session_chair": "",
+      "session_chair": "Frank Ostermann",
       "track": "track2",
       "theme": "presentation-85929e",
       "title": "Measuring Urban Green Space Vitality through Multi-Source Visual and Textual Data: Integrating Social Media and Street-Level Imagery in London",
@@ -1161,7 +1161,7 @@ export const eventsConfig = {
       "event_group": "presentation",
       "event_format": "presentation",
       "session_category": "Street-Level Vision & Urban Environmental Perception",
-      "session_chair": "",
+      "session_chair": "Frank Ostermann",
       "track": "track2",
       "theme": "presentation-85929e",
       "title": "Maximizing Data Coverage: Fusing Street View and Oblique Imagery to Quantify Vertical Greenery Potential in Urban Areas",
@@ -1319,6 +1319,42 @@ export const eventsConfig = {
       "location": "Ring Auditorium",
       "time_start": "2026-06-19T13:00",
       "time_end": "2026-06-19T13:10"
+    },
+    {
+      "event_group": "registration",
+      "event_format": "registration",
+      "track": "",
+      "title": "Registration",
+      "location": "Vanemuise 46",
+      "time_start": "2026-06-16T08:00",
+      "time_end": "2026-06-16T09:00"
+    },
+    {
+      "event_group": "registration",
+      "event_format": "registration",
+      "track": "",
+      "title": "Registration",
+      "location": "Vanemuise 46",
+      "time_start": "2026-06-17T08:30",
+      "time_end": "2026-06-17T09:00"
+    },
+    {
+      "event_group": "registration",
+      "event_format": "registration",
+      "track": "",
+      "title": "Registration",
+      "location": "Vanemuise 46",
+      "time_start": "2026-06-18T09:00",
+      "time_end": "2026-06-18T09:30"
+    },
+    {
+      "event_group": "registration",
+      "event_format": "registration",
+      "track": "",
+      "title": "Registration",
+      "location": "Vanemuise 46",
+      "time_start": "2026-06-19T08:30",
+      "time_end": "2026-06-19T09:00"
     },
     {
       "event_group": "assembly",

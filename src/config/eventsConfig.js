@@ -1335,26 +1335,8 @@ export const eventsConfig = {
       "track": "",
       "title": "Registration desk open",
       "location": "Vanemuise 46",
-      "time_start": "2026-06-17T08:30",
+      "time_start": "2026-06-17T08:00",
       "time_end": "2026-06-17T09:00"
-    },
-    {
-      "event_group": "registration",
-      "event_format": "registration",
-      "track": "",
-      "title": "Registration desk open",
-      "location": "Vanemuise 46",
-      "time_start": "2026-06-18T09:00",
-      "time_end": "2026-06-18T09:30"
-    },
-    {
-      "event_group": "registration",
-      "event_format": "registration",
-      "track": "",
-      "title": "Registration desk open",
-      "location": "Vanemuise 46",
-      "time_start": "2026-06-19T08:30",
-      "time_end": "2026-06-19T09:00"
     },
     {
       "event_group": "assembly",

@@ -2,7 +2,9 @@
   <div class="event-break" :style="placementStyle">
     <div class="event-break-inner">
       <span class="event-break-title">{{ event.title }}</span>
-       <span class="event-break-time">{{ event.startFmt }} – {{ event.endFmt }}</span>
+       <span class="event-break-time">{{ event.startFmt }} – {{ event.endFmt }}
+        <span v-if="event.location"> @ {{ event.location }}</span>
+       </span>
     </div>
   </div>
 </template>
@@ -55,7 +57,7 @@ defineProps({
 .event-break-title {
   font-weight: 600;
   font-size: 15px;
-  color: #7a7572;
+  color: #4d4b4a;
   text-align: center;
   line-height: 1.3;
 }
@@ -63,7 +65,7 @@ defineProps({
 .event-break-time {
   font-weight: 600;
   font-size: 13px;
-  color: #7a7572;
+  color: #4d4b4a;
   text-align: center;
   line-height: 1.3;
   letter-spacing: 0.03em;

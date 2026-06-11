@@ -113,6 +113,7 @@ export const eventsConfig = {
       "event_format": "break",
       "track": "",
       "title": "Coffee Break",
+      "location": "Mart Reiniku Building",
       "time_start": "2026-06-17T10:30",
       "time_end": "2026-06-17T11:00"
     },
@@ -121,6 +122,7 @@ export const eventsConfig = {
       "event_format": "break",
       "track": "",
       "title": "Break",
+      "location": "",
       "time_start": "2026-06-17T15:00",
       "time_end": "2026-06-17T15:15"
     },
@@ -129,6 +131,7 @@ export const eventsConfig = {
       "event_format": "break",
       "track": "",
       "title": "Coffee Break",
+      "location": "Mart Reiniku Building",
       "time_start": "2026-06-18T10:30",
       "time_end": "2026-06-18T11:00"
     },
@@ -137,6 +140,7 @@ export const eventsConfig = {
       "event_format": "break",
       "track": "",
       "title": "Coffee Break",
+      "location": "Mart Reiniku Building",
       "time_start": "2026-06-18T15:40",
       "time_end": "2026-06-18T16:10"
     },
@@ -145,6 +149,7 @@ export const eventsConfig = {
       "event_format": "break",
       "track": "",
       "title": "Coffee Break",
+      "location": "Mart Reiniku Building",
       "time_start": "2026-06-19T10:00",
       "time_end": "2026-06-19T10:30"
     },
@@ -467,6 +472,7 @@ export const eventsConfig = {
       "event_format": "break",
       "track": "",
       "title": "Lunch",
+      "location": "Mart Reiniku Building",
       "time_start": "2026-06-17T12:40",
       "time_end": "2026-06-17T13:40"
     },
@@ -475,6 +481,7 @@ export const eventsConfig = {
       "event_format": "break",
       "track": "",
       "title": "Lunch",
+      "location": "Mart Reiniku Building",
       "time_start": "2026-06-18T12:20",
       "time_end": "2026-06-18T13:20"
     },
@@ -483,6 +490,7 @@ export const eventsConfig = {
       "event_format": "break",
       "track": "",
       "title": "Lunch",
+      "location": "Mart Reiniku Building",
       "time_start": "2026-06-19T13:10",
       "time_end": "2026-06-19T14:10"
     },
@@ -1499,6 +1507,7 @@ export const eventsConfig = {
       "event_format": "break",
       "track": "",
       "title": "Lunch",
+      "location": "Vanemuise 46 Gallery",
       "time_start": "2026-06-16T13:00",
       "time_end": "2026-06-16T13:45"
     },
@@ -1659,6 +1668,7 @@ export const eventsConfig = {
       "event_format": "break",
       "track": "",
       "title": "Coffee Break",
+      "location": "Vanemuise 46 Gallery",
       "time_start": "2026-06-16T10:45",
       "time_end": "2026-06-16T11:15"
     },
@@ -1667,6 +1677,7 @@ export const eventsConfig = {
       "event_format": "break",
       "track": "",
       "title": "Coffee Break",
+      "location": "Vanemuise 46 Gallery",
       "time_start": "2026-06-16T15:30",
       "time_end": "2026-06-16T16:00"
     },

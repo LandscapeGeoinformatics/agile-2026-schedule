@@ -755,7 +755,7 @@ export const eventsConfig = {
       "theme": "networking-ffc000",
       "title": "Posters",
       "author": [],
-      "location": "Ring Auditorium/Reiniku",
+      "location": "Ring Auditorium/Mart Reiniku Building",
       "time_start": "2026-06-17T15:15",
       "time_end": "2026-06-17T18:00"
     },

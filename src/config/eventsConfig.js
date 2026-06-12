@@ -1558,7 +1558,8 @@ export const eventsConfig = {
       "title": "Geospatial AI for Urban Analytics (GeoAI4UA) with Actionable Smart Data",
       "short_title": "GeoAI4UA",
       "author": [
-        "Meiliu Wu"
+        "Meiliu Wu",
+        "Jing Yao"
       ],
       "location": "Room 246",
       "time_start": "2026-06-16T13:45",
@@ -1575,7 +1576,8 @@ export const eventsConfig = {
       "title": "Geospatial AI for Urban Analytics (GeoAI4UA) with Actionable Smart Data",
       "short_title": "GeoAI4UA",
       "author": [
-        "Meiliu Wu"
+        "Meiliu Wu",
+        "Jing Yao"
       ],
       "location": "Room 246",
       "time_start": "2026-06-16T16:00",

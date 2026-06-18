@@ -3,7 +3,7 @@ export const eventsConfig = {
     {
       "event_group": "presentation",
       "event_format": "presentation",
-      "session_category": "Best Paper Competition",
+      "session_category": "Best Paper Competition - Short Papers",
       "session_chair": "Sabine Timpf, Rob Lemmens",
       "track": "",
       "theme": "presentation-f57f17",
@@ -21,7 +21,7 @@ export const eventsConfig = {
     {
       "event_group": "presentation",
       "event_format": "presentation",
-      "session_category": "Best Paper Competition",
+      "session_category": "Best Paper Competition - Full Papers",
       "session_chair": "Sabine Timpf, Rob Lemmens",
       "track": "",
       "theme": "presentation-f57f17",
@@ -40,7 +40,7 @@ export const eventsConfig = {
     {
       "event_group": "presentation",
       "event_format": "presentation",
-      "session_category": "Best Paper Competition",
+      "session_category": "Best Paper Competition - Full Papers",
       "session_chair": "Sabine Timpf, Rob Lemmens",
       "track": "",
       "theme": "presentation-f57f17",
@@ -57,7 +57,7 @@ export const eventsConfig = {
     {
       "event_group": "presentation",
       "event_format": "presentation",
-      "session_category": "Best Paper Competition",
+      "session_category": "Best Paper Competition - Full Papers",
       "session_chair": "Sabine Timpf, Rob Lemmens",
       "track": "",
       "theme": "presentation-f57f17",
@@ -76,7 +76,7 @@ export const eventsConfig = {
     {
       "event_group": "presentation",
       "event_format": "presentation",
-      "session_category": "Best Paper Competition",
+      "session_category": "Best Paper Competition - Short Papers",
       "session_chair": "Sabine Timpf, Rob Lemmens",
       "track": "",
       "theme": "presentation-f57f17",
@@ -94,7 +94,7 @@ export const eventsConfig = {
     {
       "event_group": "presentation",
       "event_format": "presentation",
-      "session_category": "Best Paper Competition",
+      "session_category": "Best Paper Competition - Short Papers",
       "session_chair": "Sabine Timpf, Rob Lemmens",
       "track": "",
       "theme": "presentation-f57f17",
